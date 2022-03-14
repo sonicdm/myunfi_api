@@ -1,0 +1,61 @@
+{
+  "customerOrderId": 1930653,
+  "uuid": "C54DAE6A-E8A9-4ED0-BEFC-5215372DD211",
+  "customerNumber": "001014",
+  "hostSystem": "WBS",
+  "clientApplication": "iUNFI",
+  "submittedBy": "grocery@capellamarket.com",
+  "poNumber": "666-032-597",
+  "orderName": "Order started on 3/11/22",
+  "confirmationNumber": "068677139001",
+  "transmissionId": "666-032-597",
+  "submittedTimestamp": "2022-03-11T16:25:11Z",
+  "transmittedTimestamp": "2022-03-11T16:30:03Z",
+  "deliveryDate": "2022-03-11",
+  "items": [
+    {
+      "customerOrderItemId": 254715680,
+      "deliveryDepartment": 0,
+      "itemNumber": "47056",
+      "quantity": 2
+    },
+    {
+      "customerOrderItemId": 254715681,
+      "deliveryDepartment": 0,
+      "itemNumber": "74005",
+      "quantity": 1
+    },
+    {
+      "customerOrderItemId": 254715682,
+      "deliveryDepartment": 0,
+      "itemNumber": "00755",
+      "quantity": 1
+    },
+    {
+      "customerOrderItemId": 254715683,
+      "deliveryDepartment": 0,
+      "itemNumber": "41325",
+      "quantity": 1
+    },
+    {
+      "customerOrderItemId": 254715684,
+      "deliveryDepartment": 0,
+      "itemNumber": "41327",
+      "quantity": 1
+    },
+    {
+      "customerOrderItemId": 254715685,
+      "deliveryDepartment": 0,
+      "itemNumber": "69795",
+      "quantity": 1
+    },
+    {
+      "customerOrderItemId": 254715686,
+      "deliveryDepartment": 0,
+      "itemNumber": "34823",
+      "quantity": 1
+    }
+  ],
+  "status": "Submitted",
+  "openOrderId": "068677139"
+}

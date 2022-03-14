@@ -1,0 +1,34 @@
+{
+  "palletName": "",
+  "packaging": {
+    "eaches": "6/64 OZ",
+    "pack": 64,
+    "size": "64 OZ",
+    "unit": "OZ"
+  },
+  "pricing": {
+    "regularCasePrice": 28.36,
+    "regularSRP": 6.59,
+    "netCasePrice": 28.36,
+    "netEachPrice": 4.73,
+    "regularUnitPrice": 4.73,
+    "extendedPrice": 0,
+    "saleSRP": 6.59,
+    "margin": 28.23,
+    "discount": 0,
+    "discountReason": "/"
+  },
+  "itemNumber": "10244",
+  "upcNumber": "93966510157",
+  "lineNumber": 2,
+  "orderQuantity": 0,
+  "shipQuantity": 0,
+  "taxed": "N",
+  "brand": "*OG VALLEY",
+  "productDescription": "OG2 O.V. WHOLE MILK",
+  "department": 6,
+  "departmentName": "SUPPLEMENTS            ",
+  "extendedWeight": 9.17,
+  "extendedCube": 0.19,
+  "reasonCode": 105
+}

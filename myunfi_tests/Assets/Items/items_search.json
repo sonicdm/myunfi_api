@@ -1,0 +1,1789 @@
+{
+  "facets": {
+    "brands": [
+      {
+        "name": "ALESSI",
+        "count": 1,
+        "id": 24814
+      },
+      {
+        "name": "AMAZING GRASS",
+        "count": 2,
+        "id": 31251
+      },
+      {
+        "name": "AMY`S",
+        "count": 2,
+        "id": 28226
+      },
+      {
+        "name": "BLACKBIRD",
+        "count": 1,
+        "id": 39331
+      },
+      {
+        "name": "BRADS PLANT BASED",
+        "count": 6,
+        "id": 26006
+      },
+      {
+        "name": "BRAGG",
+        "count": 1,
+        "id": 28461
+      },
+      {
+        "name": "CASCADIAN FARM",
+        "count": 2,
+        "id": 25498
+      },
+      {
+        "name": "CEREBELLY",
+        "count": 2,
+        "id": 35112
+      },
+      {
+        "name": "CYBELE`S FREE TO EAT",
+        "count": 1,
+        "id": 26767
+      },
+      {
+        "name": "DO ANYTHING SAUCE",
+        "count": 1,
+        "id": 36660
+      },
+      {
+        "name": "DR. PRAEGER`S",
+        "count": 4,
+        "id": 27865
+      },
+      {
+        "name": "EARTHBOUND FARM",
+        "count": 1,
+        "id": 28921
+      },
+      {
+        "name": "FEEL GOOD FOODS",
+        "count": 1,
+        "id": 30342
+      },
+      {
+        "name": "FRANKLIN FARMS",
+        "count": 1,
+        "id": 30316
+      },
+      {
+        "name": "FREAK FLAG ORGANICS",
+        "count": 2,
+        "id": 36318
+      },
+      {
+        "name": "GARDEIN",
+        "count": 1,
+        "id": 31646
+      },
+      {
+        "name": "HAPPY BABY",
+        "count": 4,
+        "id": 30121
+      },
+      {
+        "name": "HAPPY TOT",
+        "count": 1,
+        "id": 25994
+      },
+      {
+        "name": "HONEST KITCHEN",
+        "count": 1,
+        "id": 24790
+      },
+      {
+        "name": "LIVBAR",
+        "count": 2,
+        "id": 36052
+      },
+      {
+        "name": "LUVO PERFORMANCE KITCHEN",
+        "count": 1,
+        "id": 35535
+      },
+      {
+        "name": "MAYA KAIMAL",
+        "count": 2,
+        "id": 32070
+      },
+      {
+        "name": "NORTH COAST",
+        "count": 1,
+        "id": 27501
+      },
+      {
+        "name": "OLYKRAUT",
+        "count": 1,
+        "id": 29414
+      },
+      {
+        "name": "ONCE UPON A FARM",
+        "count": 1,
+        "id": 25045
+      },
+      {
+        "name": "PATAGONIA PROVISIONS",
+        "count": 1,
+        "id": 38742
+      },
+      {
+        "name": "PATH OF LIFE",
+        "count": 1,
+        "id": 31427
+      },
+      {
+        "name": "PETER RABBIT ORGANICS",
+        "count": 1,
+        "id": 27151
+      },
+      {
+        "name": "PLUM ORGANICS",
+        "count": 2,
+        "id": 29716
+      },
+      {
+        "name": "PUREZERO",
+        "count": 1,
+        "id": 34292
+      },
+      {
+        "name": "R.W. GARCIA",
+        "count": 1,
+        "id": 24607
+      },
+      {
+        "name": "RHYTHM",
+        "count": 3,
+        "id": 31154
+      },
+      {
+        "name": "SEEDS OF CHANGE",
+        "count": 1,
+        "id": 29708
+      },
+      {
+        "name": "SERENITY KIDS",
+        "count": 1,
+        "id": 33451
+      },
+      {
+        "name": "SIMPLY7",
+        "count": 1,
+        "id": 25165
+      },
+      {
+        "name": "SONOMA GOURMET",
+        "count": 1,
+        "id": 25465
+      },
+      {
+        "name": "SPROUT",
+        "count": 1,
+        "id": 30744
+      },
+      {
+        "name": "STAHLBUSH ISLAND FARMS",
+        "count": 1,
+        "id": 29335
+      },
+      {
+        "name": "STRONG ROOTS",
+        "count": 1,
+        "id": 34014
+      },
+      {
+        "name": "TRES LATIN FOODS",
+        "count": 1,
+        "id": 24577
+      },
+      {
+        "name": "WOODSTOCK",
+        "count": 1,
+        "id": 31355
+      },
+      {
+        "name": "WYMAN`S OF MAINE",
+        "count": 1,
+        "id": 26164
+      }
+    ],
+    "categories": [
+      {
+        "name": "BARS",
+        "count": 3,
+        "id": 1347,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "CANNED",
+        "count": 2,
+        "id": 1366,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "CHIPS",
+        "count": 6,
+        "id": 1407,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "CRACKERS",
+        "count": 1,
+        "id": 1345,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "ETHNIC FOODS",
+        "count": 2,
+        "id": 1370,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "FROZEN MEAT ALTERNATIVES",
+        "count": 3,
+        "id": 1379,
+        "parent": {
+          "name": "FROZEN",
+          "id": 71
+        }
+      },
+      {
+        "name": "FRUITS & DRIED VEGETABLES",
+        "count": 5,
+        "id": 1374,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "GROCERY",
+        "count": 15,
+        "id": 1350,
+        "parent": {
+          "name": "FROZEN",
+          "id": 71
+        }
+      },
+      {
+        "name": "HAIR & SHAVE",
+        "count": 1,
+        "id": 1394,
+        "parent": {
+          "name": "HEALTH & BEAUTY",
+          "id": 73
+        }
+      },
+      {
+        "name": "PACKAGED GRAINS/BEANS/SEEDS",
+        "count": 1,
+        "id": 1403,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "PACKAGED GROCERY & MIXES",
+        "count": 12,
+        "id": 1353,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "PASTA",
+        "count": 2,
+        "id": 1381,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "REFRIGERATED PRODUCTS",
+        "count": 4,
+        "id": 1401,
+        "parent": {
+          "name": "CHILL",
+          "id": 69
+        }
+      },
+      {
+        "name": "SALAD DRESSINGS",
+        "count": 1,
+        "id": 1408,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      },
+      {
+        "name": "SUPPLEMENTS",
+        "count": 2,
+        "id": 1386,
+        "parent": {
+          "name": "NUTRITION",
+          "id": 74
+        }
+      },
+      {
+        "name": "SUPPLIES",
+        "count": 1,
+        "id": 1336,
+        "parent": {
+          "name": "PET PRODUCTS",
+          "id": 70
+        }
+      },
+      {
+        "name": "TOMATO & PASTA SAUCE",
+        "count": 2,
+        "id": 1341,
+        "parent": {
+          "name": "GROCERY",
+          "id": 72
+        }
+      }
+    ],
+    "dietaryLifestyle": [
+      {
+        "name": "Artificial Ingredients",
+        "code": "containsArtificialIngredients"
+      },
+      {
+        "name": "Fair Trade",
+        "code": "isFairTrade"
+      },
+      {
+        "name": "Food Service (Bulk Pack)",
+        "code": "isFoodserviceBulk"
+      },
+      {
+        "name": "Food Service (Single Serve)",
+        "code": "isFoodserviceSingle"
+      },
+      {
+        "name": "Has No Refined Sugar",
+        "code": "containsNoRefinedSugars"
+      },
+      {
+        "name": "Has Refined Sugar",
+        "code": "containsRefinedSugars"
+      },
+      {
+        "name": "Kosher",
+        "code": "isKosher"
+      },
+      {
+        "name": "Low Carb",
+        "code": "isLowCarb"
+      },
+      {
+        "name": "Low Fat",
+        "code": "isLowFat"
+      },
+      {
+        "name": "Low Sodium",
+        "code": "isLowSalt"
+      },
+      {
+        "name": "Natural",
+        "code": "isNatural"
+      },
+      {
+        "name": "Non-GMO Project Verified",
+        "code": "isNonGMO"
+      },
+      {
+        "name": "Specialty",
+        "code": "isSpecialty"
+      },
+      {
+        "name": "Vegan",
+        "code": "isVegan"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Deal",
+        "code": "MONTHLY_SPECIALS"
+      },
+      {
+        "name": "New Item",
+        "code": "NEWLY_AVAILABLE"
+      }
+    ],
+    "organicCodes": [
+      {
+        "name": "100% Organic",
+        "code": "OG1"
+      },
+      {
+        "name": "At least 70% Organic",
+        "code": "OG3"
+      },
+      {
+        "name": "At least 90% Organic",
+        "code": "OG4"
+      },
+      {
+        "name": "At least 95% Organic",
+        "code": "OG2"
+      },
+      {
+        "name": "Made with Organic Ingredients",
+        "code": "OG5"
+      }
+    ],
+    "freeFrom": [
+      {
+        "name": "Cholesterol Free",
+        "code": "isCholesterolFree"
+      },
+      {
+        "name": "Dairy Free",
+        "code": "isDairyFree"
+      },
+      {
+        "name": "Fat Free",
+        "code": "isFatFree"
+      },
+      {
+        "name": "Gluten Free",
+        "code": "isGlutenFree"
+      },
+      {
+        "name": "Lactose Free",
+        "code": "isLactoseFree"
+      },
+      {
+        "name": "No Salt",
+        "code": "isNoSalt"
+      },
+      {
+        "name": "Sugar Free",
+        "code": "isSugarFree"
+      },
+      {
+        "name": "Wheat Free",
+        "code": "isWheatFree"
+      },
+      {
+        "name": "Yeast Free",
+        "code": "isYeastFree"
+      }
+    ],
+    "packConfigCode": [
+      {
+        "name": "Case",
+        "code": "CASE"
+      },
+      {
+        "name": "Each",
+        "code": "EACH"
+      },
+      {
+        "name": "Pallet",
+        "code": "PALLET"
+      },
+      {
+        "name": "Shipper",
+        "code": "SHIPPER"
+      }
+    ]
+  },
+  "results": {
+    "page": {
+      "size": 100,
+      "number": 0,
+      "numberOfElements": 63,
+      "totalElements": 63,
+      "totalPages": 1,
+      "isSorted": false
+    },
+    "items": [
+      {
+        "id": 829724,
+        "itemNumber": "58082",
+        "upc": "00856873008205",
+        "packQty": 1,
+        "packSize": "12 OZ",
+        "brandId": 34292,
+        "statusCode": "Future Disco",
+        "statusReasonCode": "Future UNFI Disco",
+        "packConfig": "Each",
+        "isDsdRestricted": false,
+        "description": "Kale",
+        "brandName": "Purezero",
+        "title": "Purezero Kale",
+        "departmentId": 73,
+        "departmentName": "HEALTH & BEAUTY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00856873008205&version=3"
+        }
+      },
+      {
+        "id": 226188,
+        "itemNumber": "62554",
+        "upc": "00080868002415",
+        "packQty": 6,
+        "packSize": "10 OZ",
+        "brandId": 27865,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Littles; Kale",
+        "brandName": "Dr. Praeger`s",
+        "title": "Dr. Praeger`s Littles; Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00080868002415&version=3"
+        }
+      },
+      {
+        "id": 264866,
+        "itemNumber": "61107",
+        "upc": "00021908460277",
+        "packQty": 12,
+        "packSize": "10 OZ",
+        "brandId": 25498,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Frozen Kale",
+        "brandName": "Cascadian Farm",
+        "title": "Cascadian Farm Organic Frozen Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00021908460277&version=3"
+        }
+      },
+      {
+        "id": 240543,
+        "itemNumber": "41889",
+        "upc": "00080868000411",
+        "packQty": 6,
+        "packSize": "10 OZ",
+        "brandId": 27865,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Veggie Burgers; Kale",
+        "brandName": "Dr. Praeger`s",
+        "title": "Dr. Praeger`s Veggie Burgers; Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00080868000411&version=3"
+        }
+      },
+      {
+        "id": 226181,
+        "itemNumber": "16018",
+        "upc": "00080868202907",
+        "packQty": 6,
+        "packSize": "9 OZ",
+        "brandId": 27865,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Veggie Puffs; Kale",
+        "brandName": "Dr. Praeger`s",
+        "title": "Dr. Praeger`s Veggie Puffs; Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00080868202907&version=3"
+        }
+      },
+      {
+        "id": 232408,
+        "itemNumber": "62259",
+        "upc": "00854662007026",
+        "packQty": 6,
+        "packSize": "16 OZ",
+        "brandId": 29414,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Kraut, Smoke & Kale",
+        "brandName": "Olykraut",
+        "title": "Olykraut Kraut, Smoke & Kale",
+        "departmentId": 69,
+        "departmentName": "CHILL",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00854662007026&version=3"
+        }
+      },
+      {
+        "id": 817268,
+        "itemNumber": "56777",
+        "upc": "00810012620024",
+        "packQty": 10,
+        "packSize": "10.5OZ",
+        "brandId": 34014,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Burger,kale,quinoa",
+        "brandName": "Strong Roots",
+        "title": "Strong Roots Burger,kale,quinoa",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00810012620024&version=3"
+        }
+      },
+      {
+        "id": 223539,
+        "itemNumber": "47929",
+        "upc": "00829835006472",
+        "packQty": 1,
+        "packSize": "5.29 OZ",
+        "brandId": 31251,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Each",
+        "isDsdRestricted": false,
+        "description": "Kale Powder,og2",
+        "brandName": "Amazing Grass",
+        "title": "Amazing Grass Kale Powder,og2",
+        "departmentId": 74,
+        "departmentName": "NUTRITION",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00829835006472&version=3"
+        }
+      },
+      {
+        "id": 857716,
+        "itemNumber": "56971",
+        "upc": "00855989007003",
+        "packQty": 6,
+        "packSize": "15.6 OZ",
+        "brandId": 36660,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Sauce,kale Pesto",
+        "brandName": "Do Anything Sauce",
+        "title": "Do Anything Sau Sauce,kale Pesto",
+        "departmentId": 69,
+        "departmentName": "CHILL",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00855989007003&version=3"
+        }
+      },
+      {
+        "id": 827595,
+        "itemNumber": "75650",
+        "upc": "00856911007207",
+        "packQty": 12,
+        "packSize": "10 OZ",
+        "brandId": 31427,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Quinoa,og3,kale",
+        "brandName": "Path Of Life",
+        "title": "Path Of Life Quinoa,og3,kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00856911007207&version=3"
+        }
+      },
+      {
+        "id": 864833,
+        "itemNumber": "70169",
+        "upc": "00638882000636",
+        "packQty": 12,
+        "packSize": "7 OZ",
+        "brandId": 29335,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Curly Kale,chopped",
+        "brandName": "Stahlbush Island Farms",
+        "title": "Stahlbush Islan Curly Kale,chopped",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00638882000636&version=3"
+        }
+      },
+      {
+        "id": 852270,
+        "itemNumber": "44901",
+        "upc": "00864158000455",
+        "packQty": 6,
+        "packSize": "6.5 OZ",
+        "brandId": 36318,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Pesto,og2,kale",
+        "brandName": "Freak Flag Organics",
+        "title": "Freak Flag Orga Pesto,og2,kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00864158000455&version=3"
+        }
+      },
+      {
+        "id": 239013,
+        "itemNumber": "60252",
+        "upc": "00813104020016",
+        "packQty": 12,
+        "packSize": "2 OZ",
+        "brandId": 26006,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Crunchy Kale;naked",
+        "brandName": "Brads Plant Based",
+        "title": "Brads Plant Bas Organic Crunchy Kale;naked",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00813104020016&version=3"
+        }
+      },
+      {
+        "id": 261881,
+        "itemNumber": "26016",
+        "upc": "00764218652566",
+        "packQty": 12,
+        "packSize": "3.5 OZ",
+        "brandId": 25165,
+        "statusCode": "Future Disco",
+        "statusReasonCode": "Future UNFI Disco",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Kale Chips; Sea Salt",
+        "brandName": "Simply7",
+        "title": "Simply7 Kale Chips; Sea Salt",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00764218652566&version=3"
+        }
+      },
+      {
+        "id": 884139,
+        "itemNumber": "65732",
+        "upc": "00036593110161",
+        "packQty": 6,
+        "packSize": "5.5 OZ",
+        "brandId": 24607,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Crackers,og2,3 Seed Kale",
+        "brandName": "R.w. Garcia",
+        "title": "R.w. Garcia Crackers,og2,3 Seed Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00036593110161&version=3"
+        }
+      },
+      {
+        "id": 239030,
+        "itemNumber": "60254",
+        "upc": "00813104021679",
+        "packQty": 12,
+        "packSize": "2 OZ",
+        "brandId": 26006,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Crunchy Kale;original",
+        "brandName": "Brads Plant Based",
+        "title": "Brads Plant Bas Organic Crunchy Kale;original",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00813104021679&version=3"
+        }
+      },
+      {
+        "id": 269968,
+        "itemNumber": "37201",
+        "upc": "00042272010561",
+        "packQty": 12,
+        "packSize": "8.5 OZ",
+        "brandId": 28226,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Bowl,og3,3 Cheese & Kale",
+        "brandName": "Amy`s",
+        "title": "Amy`s Bowl,og3,3 Cheese & Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00042272010561&version=3"
+        }
+      },
+      {
+        "id": 271324,
+        "itemNumber": "71656",
+        "upc": "00042563015923",
+        "packQty": 12,
+        "packSize": "10 OZ",
+        "brandId": 31355,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Frozen Vegetables; Chopped Kale",
+        "brandName": "Woodstock",
+        "title": "Woodstock Frozen Vegetables; Chopped Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00042563015923&version=3"
+        }
+      },
+      {
+        "id": 265790,
+        "itemNumber": "02647",
+        "upc": "00071072801369",
+        "packQty": 6,
+        "packSize": "7 OZ",
+        "brandId": 24814,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Farro; Butternut Squash & Kale",
+        "brandName": "Alessi",
+        "title": "Alessi Farro; Butternut Squash & Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00071072801369&version=3"
+        }
+      },
+      {
+        "id": 249436,
+        "itemNumber": "43843",
+        "upc": "00854430002475",
+        "packQty": 8,
+        "packSize": "4/2.5 OZ",
+        "brandId": 24577,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Pupusas; Kale And Pinto, Vegan",
+        "brandName": "Tres Latin Foods",
+        "title": "Tres Latin Food Pupusas; Kale And Pinto, Vegan",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00854430002475&version=3"
+        }
+      },
+      {
+        "id": 861074,
+        "itemNumber": "20692",
+        "upc": "00810981020719",
+        "packQty": 6,
+        "packSize": "3.9 OZ",
+        "brandId": 38742,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "No Clue",
+        "isDsdRestricted": false,
+        "description": "Kamut Grains,og2,kale",
+        "brandName": "Patagonia Provisions",
+        "title": "Patagonia Provi Kamut Grains,og2,kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00810981020719&version=3"
+        }
+      },
+      {
+        "id": 239021,
+        "itemNumber": "60255",
+        "upc": "00813104020719",
+        "packQty": 12,
+        "packSize": "2 OZ",
+        "brandId": 26006,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Crunchy Kale; Original",
+        "brandName": "Brads Plant Based",
+        "title": "Brads Plant Bas Organic Crunchy Kale; Original",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00813104020719&version=3"
+        }
+      },
+      {
+        "id": 243725,
+        "itemNumber": "74732",
+        "upc": "00044325120074",
+        "packQty": 6,
+        "packSize": "10 OZ",
+        "brandId": 30316,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Veggie Burger,beet&kale",
+        "brandName": "Franklin Farms",
+        "title": "Franklin Farms Veggie Burger,beet&kale",
+        "departmentId": 69,
+        "departmentName": "CHILL",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00044325120074&version=3"
+        }
+      },
+      {
+        "id": 813785,
+        "itemNumber": "81635",
+        "upc": "00842234003361",
+        "packQty": 8,
+        "packSize": "8.5 OZ",
+        "brandId": 31646,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Saus,kale,pot,meatless",
+        "brandName": "Gardein",
+        "title": "Gardein Saus,kale,pot,meatless",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00842234003361&version=3"
+        }
+      },
+      {
+        "id": 251408,
+        "itemNumber": "38701",
+        "upc": "00854615002054",
+        "packQty": 12,
+        "packSize": "3 OZ",
+        "brandId": 26006,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Veggie Chips;kale",
+        "brandName": "Brads Plant Based",
+        "title": "Brads Plant Bas Organic Veggie Chips;kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00854615002054&version=3"
+        }
+      },
+      {
+        "id": 245135,
+        "itemNumber": "20533",
+        "upc": "00858034006907",
+        "packQty": 12,
+        "packSize": "17.6 OZ",
+        "brandId": 32070,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Soup,creamy,chickpea Kale",
+        "brandName": "Maya Kaimal",
+        "title": "Maya Kaimal Soup,creamy,chickpea Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00858034006907&version=3"
+        }
+      },
+      {
+        "id": 247086,
+        "itemNumber": "85221",
+        "upc": "00829739000637",
+        "packQty": 12,
+        "packSize": "2 OZ",
+        "brandId": 31154,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Kale Chips; Original",
+        "brandName": "Rhythm",
+        "title": "Rhythm Organic Kale Chips; Original",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00829739000637&version=3"
+        }
+      },
+      {
+        "id": 853510,
+        "itemNumber": "07017",
+        "upc": "00022014052028",
+        "packQty": 6,
+        "packSize": "4/3.2 OZ",
+        "brandId": 27501,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Aplsce,og2,kale Spn Blbry",
+        "brandName": "North Coast",
+        "title": "North Coast Aplsce,og2,kale Spn Blbry",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00022014052028&version=3"
+        }
+      },
+      {
+        "id": 251948,
+        "itemNumber": "71415",
+        "upc": "00032601026257",
+        "packQty": 12,
+        "packSize": "8 OZ",
+        "brandId": 28921,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "100% Organic Frozen Vegetables; Kale",
+        "brandName": "Earthbound Farm",
+        "title": "Earthbound Farm 100% Organic Frozen Vegetables; Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00032601026257&version=3"
+        }
+      },
+      {
+        "id": 239028,
+        "itemNumber": "60251",
+        "upc": "00813104020061",
+        "packQty": 12,
+        "packSize": "2 OZ",
+        "brandId": 26006,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Crunchy Kale;vampire Killer",
+        "brandName": "Brads Plant Based",
+        "title": "Brads Plant Bas Organic Crunchy Kale;vampire Killer",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00813104020061&version=3"
+        }
+      },
+      {
+        "id": 247085,
+        "itemNumber": "31078",
+        "upc": "00829739000521",
+        "packQty": 12,
+        "packSize": "2 OZ",
+        "brandId": 31154,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Kale Chips; Kool Ranch",
+        "brandName": "Rhythm",
+        "title": "Rhythm Organic Kale Chips; Kool Ranch",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00829739000521&version=3"
+        }
+      },
+      {
+        "id": 265863,
+        "itemNumber": "48155",
+        "upc": "00074305042126",
+        "packQty": 6,
+        "packSize": "12 OZ",
+        "brandId": 28461,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Drsg&marnde,og2,tscn Kale",
+        "brandName": "Bragg",
+        "title": "Bragg Drsg&marnde,og2,tscn Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00074305042126&version=3"
+        }
+      },
+      {
+        "id": 226196,
+        "itemNumber": "72598",
+        "upc": "00080868250014",
+        "packQty": 8,
+        "packSize": "7 OZ",
+        "brandId": 27865,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Breakfast Bowl; Egg Whites & Kale",
+        "brandName": "Dr. Praeger`s",
+        "title": "Dr. Praeger`s Breakfast Bowl; Egg Whites & Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00080868250014&version=3"
+        }
+      },
+      {
+        "id": 847774,
+        "itemNumber": "57338",
+        "upc": "00858422006045",
+        "packQty": 12,
+        "packSize": "1.55OZ",
+        "brandId": 36052,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "No Clue",
+        "isDsdRestricted": false,
+        "description": "Bar,og2,raspbry Kale Maca",
+        "brandName": "Livbar",
+        "title": "Livbar Bar,og2,raspbry Kale Maca",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00858422006045&version=3"
+        }
+      },
+      {
+        "id": 248294,
+        "itemNumber": "11316",
+        "upc": "00733636330059",
+        "packQty": 6,
+        "packSize": "25 OZ",
+        "brandId": 25465,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Pasta Sauce; Kale Pesto",
+        "brandName": "Sonoma Gourmet",
+        "title": "Sonoma Gourmet Organic Pasta Sauce; Kale Pesto",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00733636330059&version=3"
+        }
+      },
+      {
+        "id": 890202,
+        "itemNumber": "57483",
+        "upc": "00752830347984",
+        "packQty": 6,
+        "packSize": "14 OZ",
+        "brandId": 39331,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Pizza,plnt Bs,mshrm,kale",
+        "brandName": "Blackbird",
+        "title": "Blackbird Pizza,plnt Bs,mshrm,kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00752830347984&version=3"
+        }
+      },
+      {
+        "id": 239027,
+        "itemNumber": "32857",
+        "upc": "00813104021877",
+        "packQty": 12,
+        "packSize": "2 OZ",
+        "brandId": 26006,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Crunchy Kale; Cheeze It Up",
+        "brandName": "Brads Plant Based",
+        "title": "Brads Plant Bas Organic Crunchy Kale; Cheeze It Up",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00813104021877&version=3"
+        }
+      },
+      {
+        "id": 834483,
+        "itemNumber": "83611",
+        "upc": "00819573014709",
+        "packQty": 6,
+        "packSize": "4 OZ",
+        "brandId": 30121,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Cc,og2,pear,kale,stg2",
+        "brandName": "Happy Baby",
+        "title": "Happy Baby Cc,og2,pear,kale,stg2",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00819573014709&version=3"
+        }
+      },
+      {
+        "id": 247084,
+        "itemNumber": "31077",
+        "upc": "00829739000323",
+        "packQty": 12,
+        "packSize": "2 OZ",
+        "brandId": 31154,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Kale Chips; Zesty Nacho",
+        "brandName": "Rhythm",
+        "title": "Rhythm Organic Kale Chips; Zesty Nacho",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00829739000323&version=3"
+        }
+      },
+      {
+        "id": 250934,
+        "itemNumber": "40537",
+        "upc": "00829835006328",
+        "packQty": 1,
+        "packSize": "19.6 OZ",
+        "brandId": 31251,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Each",
+        "isDsdRestricted": false,
+        "description": "Supp,prtn Pwdr,choc,kale",
+        "brandName": "Amazing Grass",
+        "title": "Amazing Grass Supp,prtn Pwdr,choc,kale",
+        "departmentId": 74,
+        "departmentName": "NUTRITION",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00829835006328&version=3"
+        }
+      },
+      {
+        "id": 244257,
+        "itemNumber": "04442",
+        "upc": "00840423101614",
+        "packQty": 8,
+        "packSize": "10.25 OZ",
+        "brandId": 35535,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Bowl,so Cal Kale,bean",
+        "brandName": "Luvo Performance Kitchen",
+        "title": "Luvo Performanc Bowl,so Cal Kale,bean",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00840423101614&version=3"
+        }
+      },
+      {
+        "id": 228301,
+        "itemNumber": "68376",
+        "upc": "00850001022569",
+        "packQty": 6,
+        "packSize": "10.5 OZ",
+        "brandId": 24790,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Dog Fd,stew,beef,kale",
+        "brandName": "Honest Kitchen",
+        "title": "Honest Kitchen Dog Fd,stew,beef,kale",
+        "departmentId": 70,
+        "departmentName": "PET PRODUCTS",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00850001022569&version=3"
+        }
+      },
+      {
+        "id": 876169,
+        "itemNumber": "43345",
+        "upc": "00850003898537",
+        "packQty": 6,
+        "packSize": "4.2 OZ",
+        "brandId": 35112,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Snart Bar,og2,appl,kale",
+        "brandName": "Cerebelly",
+        "title": "Cerebelly Snart Bar,og2,appl,kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00850003898537&version=3"
+        }
+      },
+      {
+        "id": 888076,
+        "itemNumber": "30346",
+        "upc": "00850013167524",
+        "packQty": 12,
+        "packSize": "6 OZ",
+        "brandId": 36318,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Mac&frk,og2,kale Cheddar",
+        "brandName": "Freak Flag Organics",
+        "title": "Freak Flag Orga Mac&frk,og2,kale Cheddar",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00850013167524&version=3"
+        }
+      },
+      {
+        "id": 847772,
+        "itemNumber": "57335",
+        "upc": "00858422006052",
+        "packQty": 12,
+        "packSize": "1.55OZ",
+        "brandId": 36052,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "No Clue",
+        "isDsdRestricted": false,
+        "description": "Enrgy Br,blubry Van Kale",
+        "brandName": "Livbar",
+        "title": "Livbar Enrgy Br,blubry Van Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00858422006052&version=3"
+        }
+      },
+      {
+        "id": 864816,
+        "itemNumber": "24070",
+        "upc": "00899039002747",
+        "packQty": 9,
+        "packSize": "8 OZ",
+        "brandId": 30342,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Mac&chs Bite,sausg,kale",
+        "brandName": "Feel Good Foods",
+        "title": "Feel Good Foods Mac&chs Bite,sausg,kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00899039002747&version=3"
+        }
+      },
+      {
+        "id": 862004,
+        "itemNumber": "53554",
+        "upc": "00858034006303",
+        "packQty": 6,
+        "packSize": "10 OZ",
+        "brandId": 32070,
+        "statusCode": "LTOOS",
+        "statusReasonCode": "OOS til 2022/07/09",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Everyday Chana; Chickpeas + Coconut + Kale",
+        "brandName": "Maya Kaimal",
+        "title": "Maya Kaimal Organic Everyday Chana; Chickpeas + Coconut + Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00858034006303&version=3"
+        }
+      },
+      {
+        "id": 267698,
+        "itemNumber": "89376",
+        "upc": "00818512015142",
+        "packQty": 6,
+        "packSize": "1.5 OZ",
+        "brandId": 30744,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Bby Fd,og2,puff,apl Kale",
+        "brandName": "Sprout",
+        "title": "Sprout Bby Fd,og2,puff,apl Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00818512015142&version=3"
+        }
+      },
+      {
+        "id": 808739,
+        "itemNumber": "59903",
+        "upc": "00868767000318",
+        "packQty": 6,
+        "packSize": "3.5 OZ",
+        "brandId": 33451,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "No Clue",
+        "isDsdRestricted": false,
+        "description": "Pouch,og2,beef Kale S Pot",
+        "brandName": "Serenity Kids",
+        "title": "Serenity Kids Pouch,og2,beef Kale S Pot",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00868767000318&version=3"
+        }
+      },
+      {
+        "id": 268287,
+        "itemNumber": "11675",
+        "upc": "00042272006694",
+        "packQty": 12,
+        "packSize": "14.4 OZ",
+        "brandId": 28226,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Soup; Quinoa, Kale & Red Lentil",
+        "brandName": "Amy`s",
+        "title": "Amy`s Organic Soup; Quinoa, Kale & Red Lentil",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00042272006694&version=3"
+        }
+      },
+      {
+        "id": 907341,
+        "itemNumber": "18354",
+        "upc": "00850003898667",
+        "packQty": 6,
+        "packSize": "4 OZ",
+        "brandId": 35112,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "No Clue",
+        "isDsdRestricted": false,
+        "description": "Puree,og2,kale,swt Pot,ap",
+        "brandName": "Cerebelly",
+        "title": "Cerebelly Puree,og2,kale,swt Pot,ap",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00850003898667&version=3"
+        }
+      },
+      {
+        "id": 268156,
+        "itemNumber": "32832",
+        "upc": "00748404420177",
+        "packQty": 12,
+        "packSize": "8.5 OZ",
+        "brandId": 29708,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Brown & Red Rice; With Chia & Kale",
+        "brandName": "Seeds Of Change",
+        "title": "Seeds Of Change Organic Brown & Red Rice; With Chia & Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00748404420177&version=3"
+        }
+      },
+      {
+        "id": 255590,
+        "itemNumber": "69043",
+        "upc": "00079900003213",
+        "packQty": 6,
+        "packSize": "3 LB",
+        "brandId": 26164,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Frozen Fruit; Strawberries, Blueberries, Cherries With Kale",
+        "brandName": "Wyman`s Of Maine",
+        "title": "Wyman`s Of Main Frozen Fruit; Strawberries, Blueberries, Cherries With Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00079900003213&version=3"
+        }
+      },
+      {
+        "id": 225361,
+        "itemNumber": "05078",
+        "upc": "00021908289212",
+        "packQty": 12,
+        "packSize": "12 OZ",
+        "brandId": 25498,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Riced Cauliflower Blend;sweet Potatoes & Kale",
+        "brandName": "Cascadian Farm",
+        "title": "Cascadian Farm Organic Riced Cauliflower Blend;sweet Potatoes & Kale",
+        "departmentId": 71,
+        "departmentName": "FROZEN",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00021908289212&version=3"
+        }
+      },
+      {
+        "id": 270660,
+        "itemNumber": "84172",
+        "upc": "00846675004055",
+        "packQty": 6,
+        "packSize": "3.5 OZ",
+        "brandId": 29716,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "No Clue",
+        "isDsdRestricted": false,
+        "description": "Organic Baby Food; Kale, Sweet Corn & Quinoa",
+        "brandName": "Plum Organics",
+        "title": "Plum Organics Organic Baby Food; Kale, Sweet Corn & Quinoa",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00846675004055&version=3"
+        }
+      },
+      {
+        "id": 245944,
+        "itemNumber": "52880",
+        "upc": "00852823006000",
+        "packQty": 8,
+        "packSize": "3.2 OZ",
+        "brandId": 25045,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Fruit & Veggie Blend; Green Kale & Apples",
+        "brandName": "Once Upon A Farm",
+        "title": "Once Upon A Far Organic Fruit & Veggie Blend; Green Kale & Apples",
+        "departmentId": 69,
+        "departmentName": "CHILL",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00852823006000&version=3"
+        }
+      },
+      {
+        "id": 246466,
+        "itemNumber": "64073",
+        "upc": "00815367010285",
+        "packQty": 10,
+        "packSize": "4.4 OZ",
+        "brandId": 27151,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Fruit & Vegetable Puree; Banana Mango Broccoli Kale",
+        "brandName": "Peter Rabbit Organics",
+        "title": "Peter Rabbit Or Organic Fruit & Vegetable Puree; Banana Mango Broccoli Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00815367010285&version=3"
+        }
+      },
+      {
+        "id": 266782,
+        "itemNumber": "26827",
+        "upc": "00819573013245",
+        "packQty": 16,
+        "packSize": "4 OZ",
+        "brandId": 30121,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Stage 2 Baby Food; Pears, Kale & Spinach",
+        "brandName": "Happy Baby",
+        "title": "Happy Baby Organic Stage 2 Baby Food; Pears, Kale & Spinach",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00819573013245&version=3"
+        }
+      },
+      {
+        "id": 251740,
+        "itemNumber": "80830",
+        "upc": "00850406004054",
+        "packQty": 6,
+        "packSize": "8 OZ",
+        "brandId": 26767,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Gluten Free Superfood Rotini; Lentil Kale Broccoli + Spinach",
+        "brandName": "Cybele`s Free To Eat",
+        "title": "Cybele`s Free T Gluten Free Superfood Rotini; Lentil Kale Broccoli + Spinach",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00850406004054&version=3"
+        }
+      },
+      {
+        "id": 270320,
+        "itemNumber": "82339",
+        "upc": "00846675005373",
+        "packQty": 6,
+        "packSize": "4 OZ",
+        "brandId": 29716,
+        "statusCode": "Active",
+        "statusReasonCode": "Active",
+        "packConfig": "No Clue",
+        "isDsdRestricted": false,
+        "description": "Organic Mighty 4 Blends;kale, Strawberry, Amaranth, Yogurt",
+        "brandName": "Plum Organics",
+        "title": "Plum Organics Organic Mighty 4 Blends;kale, Strawberry, Amaranth, Yogurt",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00846675005373&version=3"
+        }
+      },
+      {
+        "id": 266774,
+        "itemNumber": "26753",
+        "upc": "00819573013191",
+        "packQty": 16,
+        "packSize": "4 OZ",
+        "brandId": 30121,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Stage 2 Baby Food Pouch; Apples, Kale & Avocados",
+        "brandName": "Happy Baby",
+        "title": "Happy Baby Organic Stage 2 Baby Food Pouch; Apples, Kale & Avocados",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00819573013191&version=3"
+        }
+      },
+      {
+        "id": 259474,
+        "itemNumber": "21106",
+        "upc": "00819573010695",
+        "packQty": 16,
+        "packSize": "4 OZ",
+        "brandId": 30121,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Stage 2 Baby Food; Apple, Spinach & Kale Pouch",
+        "brandName": "Happy Baby",
+        "title": "Happy Baby Organic Stage 2 Baby Food; Apple, Spinach & Kale Pouch",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00819573010695&version=3"
+        }
+      },
+      {
+        "id": 265304,
+        "itemNumber": "22995",
+        "upc": "00819573011708",
+        "packQty": 16,
+        "packSize": "4 OZ",
+        "brandId": 25994,
+        "statusCode": "Short",
+        "statusReasonCode": "Potential ST MFG OOS",
+        "packConfig": "Case",
+        "isDsdRestricted": false,
+        "description": "Organic Fiber & Protein Baby Food Pouch; Pears, Kiwi & Kale",
+        "brandName": "Happy Tot",
+        "title": "Happy Tot Organic Fiber & Protein Baby Food Pouch; Pears, Kiwi & Kale",
+        "departmentId": 72,
+        "departmentName": "GROCERY",
+        "image": {
+          "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00819573011708&version=3"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "shipTo": {
+    "name": "CAPELLA",
+    "street1": "C/O MARK LEW",
+    "street2": "2489 WILLAMETTE ST.",
+    "city": "EUGENE",
+    "state": "OR",
+    "zipCode": "97405",
+    "phone": "5413451014"
+  },
+  "billTo": {
+    "name": "CAPELLA",
+    "address1": "C/O MARK LEW",
+    "address2": "2489 WILLAMETTE ST.",
+    "city": "EUGENE",
+    "state": "OR",
+    "zipCode": "97405"
+  },
+  "items": [
+    {
+      "palletName": "",
+      "packaging": {
+        "eaches": "48/4 OZ",
+        "pack": 4,
+        "size": "4 OZ",
+        "unit": "OZ"
+      },
+      "pricing": {
+        "regularCasePrice": 80.6,
+        "regularSRP": 2.39,
+        "netCasePrice": 80.6,
+        "netEachPrice": 1.68,
+        "regularUnitPrice": 1.68,
+        "extendedPrice": 161.2,
+        "saleSRP": 2.39,
+        "margin": 29.71,
+        "discount": 0,
+        "discountReason": " "
+      },
+      "itemNumber": "37455",
+      "upcNumber": "10041364544196",
+      "lineNumber": 2,
+      "orderQuantity": 2,
+      "shipQuantity": 2,
+      "taxed": "N",
+      "brand": "RED VINES",
+      "productDescription": "RED VINES CHRY & MXD DSP",
+      "department": 3,
+      "departmentName": "DAIRY & REFRIGERATED   ",
+      "extendedWeight": 41.8,
+      "extendedCube": 3.58
+    }
+  ],
+  "orders": [
+    {
+      "poNumber": "SHPR 10/21",
+      "customerOrderNumber": "68307090",
+      "orderDate": "2021-08-25"
+    }
+  ],
+  "transactionType": "INVOICE",
+  "invoiceNumber": "68307090-021",
+  "customerNumber": "001014",
+  "customerName": "CAPELLA",
+  "invoiceDate": "2022-01-09",
+  "deliveryDate": "2022-01-10",
+  "deposits": 0,
+  "invoiceTotalAmount": 168.63,
+  "invoiceTotalCases": 2,
+  "invoiceTotalWeight": 41.8,
+  "invoiceTotalCube": 3.6,
+  "truckNumber": 0,
+  "freight": 0,
+  "fuelSurcharge": 30,
+  "terms": "NET 7",
+  "master": "6180",
+  "distributionCenter": 36,
+  "nonSpecial": 0,
+  "special": 0,
+  "subtotal": 161.2,
+  "totalDiscount": 22.57,
+  "tax": 0,
+  "redempt": 0,
+  "netTotal": 0,
+  "totalRetail": 0,
+  "creditAllowance": 0,
+  "profitAmount": 0,
+  "profitPercent": 0
+}

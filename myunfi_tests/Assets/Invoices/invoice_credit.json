@@ -1,0 +1,192 @@
+{
+  "shipTo": {
+    "name": "CAPELLA",
+    "street1": "C/O MARK LEW",
+    "street2": "2489 WILLAMETTE ST.",
+    "city": "EUGENE",
+    "state": "OR",
+    "zipCode": "97405",
+    "phone": "5413451014"
+  },
+  "billTo": {
+    "name": "CAPELLA",
+    "address1": "C/O MARK LEW",
+    "address2": "2489 WILLAMETTE ST.",
+    "city": "EUGENE",
+    "state": "OR",
+    "zipCode": "97405"
+  },
+  "items": [
+    {
+      "palletName": "",
+      "packaging": {
+        "eaches": "6/64 OZ",
+        "pack": 64,
+        "size": "64 OZ",
+        "unit": "OZ"
+      },
+      "pricing": {
+        "regularCasePrice": 28.36,
+        "regularSRP": 6.59,
+        "netCasePrice": 28.36,
+        "netEachPrice": 4.73,
+        "regularUnitPrice": 4.73,
+        "extendedPrice": 0,
+        "saleSRP": 6.59,
+        "margin": 28.23,
+        "discount": 0,
+        "discountReason": "/"
+      },
+      "itemNumber": "10244",
+      "upcNumber": "93966510157",
+      "lineNumber": 2,
+      "orderQuantity": 0,
+      "shipQuantity": 0,
+      "taxed": "N",
+      "brand": "*OG VALLEY",
+      "productDescription": "OG2 O.V. WHOLE MILK",
+      "department": 6,
+      "departmentName": "SUPPLEMENTS            ",
+      "extendedWeight": 9.17,
+      "extendedCube": 0.19,
+      "reasonCode": 105
+    },
+    {
+      "palletName": "",
+      "packaging": {
+        "eaches": "6/64 OZ",
+        "pack": 64,
+        "size": "64 OZ",
+        "unit": "OZ"
+      },
+      "pricing": {
+        "regularCasePrice": 28.36,
+        "regularSRP": 6.59,
+        "netCasePrice": 28.36,
+        "netEachPrice": 4.73,
+        "regularUnitPrice": 4.73,
+        "extendedPrice": 0,
+        "saleSRP": 6.59,
+        "margin": 28.23,
+        "discount": 0,
+        "discountReason": "/"
+      },
+      "itemNumber": "10245",
+      "upcNumber": "93966512250",
+      "lineNumber": 4,
+      "orderQuantity": 0,
+      "shipQuantity": 0,
+      "taxed": "N",
+      "brand": "*OG VALLEY",
+      "productDescription": "OG2 O.V. 2% LOW FAT MILK",
+      "department": 6,
+      "departmentName": "SUPPLEMENTS            ",
+      "extendedWeight": 4.58,
+      "extendedCube": 0.12,
+      "reasonCode": 105
+    },
+    {
+      "palletName": "",
+      "packaging": {
+        "eaches": "12/16 OZ",
+        "pack": 16,
+        "size": "16 OZ",
+        "unit": "OZ"
+      },
+      "pricing": {
+        "regularCasePrice": 27.49,
+        "regularSRP": 3.19,
+        "netCasePrice": 23.37,
+        "netEachPrice": 1.95,
+        "regularUnitPrice": 2.29,
+        "extendedPrice": 0,
+        "saleSRP": 3.19,
+        "margin": 38.87,
+        "discount": 0,
+        "discountReason": "/"
+      },
+      "itemNumber": "10290",
+      "upcNumber": "93966510522",
+      "lineNumber": 6,
+      "orderQuantity": 0,
+      "shipQuantity": 0,
+      "taxed": "N",
+      "brand": "*OG VALLEY",
+      "productDescription": "OG2 O.V. ULT HALF&HALF",
+      "department": 6,
+      "departmentName": "SUPPLEMENTS            ",
+      "extendedWeight": 9.23,
+      "extendedCube": 0.19,
+      "reasonCode": 105
+    },
+    {
+      "palletName": "",
+      "packaging": {
+        "eaches": "12/5.3 OZ",
+        "pack": 5,
+        "size": "5.3000 OZ",
+        "unit": "OZ"
+      },
+      "pricing": {
+        "regularCasePrice": 19.46,
+        "regularSRP": 2.19,
+        "netCasePrice": 17.28,
+        "netEachPrice": 1.44,
+        "regularUnitPrice": 1.62,
+        "extendedPrice": 0,
+        "saleSRP": 2.19,
+        "margin": 34.25,
+        "discount": 0,
+        "discountReason": "/"
+      },
+      "itemNumber": "20104",
+      "upcNumber": "854074006105",
+      "lineNumber": 8,
+      "orderQuantity": 0,
+      "shipQuantity": 0,
+      "taxed": "N",
+      "brand": "*ICELANDIC",
+      "productDescription": "ICE PROV SKYR KEY LIME",
+      "department": 6,
+      "departmentName": "SUPPLEMENTS            ",
+      "extendedWeight": 2.23,
+      "extendedCube": 0.1,
+      "reasonCode": 105
+    }
+  ],
+  "orders": [
+    {
+      "poNumber": "030222",
+      "customerOrderNumber": "62448068",
+      "orderDate": "2022-03-02"
+    }
+  ],
+  "transactionType": "CREDIT",
+  "invoiceNumber": "62448068-001",
+  "customerNumber": "001014",
+  "customerName": "CAPELLA",
+  "invoiceDate": "2022-03-02",
+  "deliveryDate": "2022-03-04",
+  "deposits": 0,
+  "invoiceTotalAmount": 37.18,
+  "invoiceTotalCases": 1,
+  "invoiceTotalWeight": 25.2,
+  "invoiceTotalCube": 0.6,
+  "truckNumber": 0,
+  "freight": 0,
+  "fuelSurcharge": 0,
+  "terms": "NET 7",
+  "master": "6526",
+  "distributionCenter": 36,
+  "nonSpecial": 0,
+  "special": 0,
+  "subtotal": 38.39,
+  "totalDiscount": 1.21,
+  "tax": 0,
+  "redempt": 0,
+  "netTotal": 0,
+  "totalRetail": 0,
+  "creditAllowance": 0,
+  "profitAmount": 0,
+  "profitPercent": 0
+}

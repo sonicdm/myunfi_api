@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "itemNumber": "58082",
+      "upc": "00856873008205",
+      "caseUpc": "00000000000000",
+      "packQty": 1,
+      "packSize": "12 OZ",
+      "minOrderQty": 0,
+      "countryOfOriginCode": 939,
+      "countryOfOriginName": "USA, FLORIDA",
+      "organicCode": "",
+      "brandId": 34292,
+      "departmentId": 73,
+      "categoryId": 1394,
+      "subcategoryId": 297,
+      "isPrivateLabel": false,
+      "statusCode": "Future Disco",
+      "statusReasonCode": "Future UNFI Disco",
+      "srp": 5.79,
+      "wholesalePrice": 3.47,
+      "isMonthlyPromo": false,
+      "discoReasonCode": "Future UNFI Disco",
+      "itemAttributes": [
+        "Natural",
+        "Natural or Organic Ingredients"
+      ],
+      "wholesaleUnitPrice": 3.47,
+      "id": 829724,
+      "packConfig": "Each",
+      "title": "Purezero Kale",
+      "description": "Kale",
+      "brandName": "Purezero",
+      "departmentName": "Health & Beauty",
+      "categoryName": "Hair & Shave",
+      "subcategoryName": "Shampoo & Conditioner",
+      "isMsiRestricted": false,
+      "pricing": {
+        "netPrice": 3.47,
+        "netUnitPrice": 3.47
+      },
+      "image": {
+        "url": "https://products.unfi.com/api/Images/GetByUPC?upc=00856873008205&version=3"
+      },
+      "qtyOnHand": 66,
+      "orderHistory": []
+    }
+  ]
+}

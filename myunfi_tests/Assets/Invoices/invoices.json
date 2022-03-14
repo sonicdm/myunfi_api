@@ -1,0 +1,2306 @@
+{
+  "page": {
+    "size": 12,
+    "number": 0,
+    "numberOfElements": 12,
+    "totalElements": 588,
+    "totalPages": 49,
+    "isSorted": true
+  },
+  "invoices": [
+    {
+      "items": [
+        {
+          "itemNumber": "16245",
+          "upcNumber": "860002227252"
+        },
+        {
+          "itemNumber": "25093",
+          "upcNumber": "857304002090"
+        },
+        {
+          "itemNumber": "88693",
+          "upcNumber": "811185031280"
+        },
+        {
+          "itemNumber": "05496",
+          "upcNumber": "815871015493"
+        },
+        {
+          "itemNumber": "05497",
+          "upcNumber": "815871015509"
+        },
+        {
+          "itemNumber": "05498",
+          "upcNumber": "815871015516"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": " ",
+          "customerOrderNumber": "68641413",
+          "orderDate": "2022-02-21"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68641413-011",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 40,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 2
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "23480",
+          "upcNumber": "837186006331"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "0088226621",
+          "customerOrderNumber": "68672257",
+          "orderDate": "2022-03-09"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68672257-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 18.77,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 3.1
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "76359",
+          "upcNumber": "665291006539"
+        },
+        {
+          "itemNumber": "10238",
+          "upcNumber": "93966213010"
+        },
+        {
+          "itemNumber": "10253",
+          "upcNumber": "93966113105"
+        },
+        {
+          "itemNumber": "10254",
+          "upcNumber": "93966113204"
+        },
+        {
+          "itemNumber": "10264",
+          "upcNumber": "93966213607"
+        },
+        {
+          "itemNumber": "10267",
+          "upcNumber": "93966253702"
+        },
+        {
+          "itemNumber": "81204",
+          "upcNumber": "93966005011"
+        },
+        {
+          "itemNumber": "10221",
+          "upcNumber": "93966452709"
+        },
+        {
+          "itemNumber": "10376",
+          "upcNumber": "93966002195"
+        },
+        {
+          "itemNumber": "13959",
+          "upcNumber": "811355002546"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "110756760",
+          "customerOrderNumber": "68674405",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68674405-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 624.01,
+      "invoiceTotalCases": 13,
+      "invoiceTotalWeight": 81.63
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "16352",
+          "upcNumber": "28833070106"
+        },
+        {
+          "itemNumber": "71677",
+          "upcNumber": "73472003695"
+        },
+        {
+          "itemNumber": "71140",
+          "upcNumber": "777762001292"
+        },
+        {
+          "itemNumber": "77830",
+          "upcNumber": "31493811323"
+        },
+        {
+          "itemNumber": "15272",
+          "upcNumber": "854442007086"
+        },
+        {
+          "itemNumber": "35817",
+          "upcNumber": "854442007000"
+        },
+        {
+          "itemNumber": "35859",
+          "upcNumber": "854442007093"
+        },
+        {
+          "itemNumber": "59407",
+          "upcNumber": "854442007130"
+        },
+        {
+          "itemNumber": "05288",
+          "upcNumber": "41570056707"
+        },
+        {
+          "itemNumber": "11262",
+          "upcNumber": "41570056189"
+        },
+        {
+          "itemNumber": "73514",
+          "upcNumber": "73490159015"
+        },
+        {
+          "itemNumber": "73516",
+          "upcNumber": "73490159039"
+        },
+        {
+          "itemNumber": "34564",
+          "upcNumber": "88194703143"
+        },
+        {
+          "itemNumber": "36716",
+          "upcNumber": "88194340096"
+        },
+        {
+          "itemNumber": "36604",
+          "upcNumber": "38261854360"
+        },
+        {
+          "itemNumber": "36610",
+          "upcNumber": "38261857644"
+        },
+        {
+          "itemNumber": "84982",
+          "upcNumber": "38261857354"
+        },
+        {
+          "itemNumber": "13365",
+          "upcNumber": "852909003305"
+        },
+        {
+          "itemNumber": "44500",
+          "upcNumber": "813636022205"
+        },
+        {
+          "itemNumber": "39416",
+          "upcNumber": "858878003001"
+        },
+        {
+          "itemNumber": "39419",
+          "upcNumber": "858878003155"
+        },
+        {
+          "itemNumber": "35725",
+          "upcNumber": "852614006509"
+        },
+        {
+          "itemNumber": "35726",
+          "upcNumber": "852614006493"
+        },
+        {
+          "itemNumber": "35728",
+          "upcNumber": "852614006530"
+        },
+        {
+          "itemNumber": "37223",
+          "upcNumber": "857290006386"
+        },
+        {
+          "itemNumber": "38524",
+          "upcNumber": "762357059598"
+        },
+        {
+          "itemNumber": "68304",
+          "upcNumber": "762357017055"
+        },
+        {
+          "itemNumber": "09769",
+          "upcNumber": "689544082002"
+        },
+        {
+          "itemNumber": "10387",
+          "upcNumber": "635475111137"
+        },
+        {
+          "itemNumber": "12071",
+          "upcNumber": "49568670126"
+        },
+        {
+          "itemNumber": "14661",
+          "upcNumber": "49568010168"
+        },
+        {
+          "itemNumber": "14663",
+          "upcNumber": "49568020167"
+        },
+        {
+          "itemNumber": "14671",
+          "upcNumber": "49568060163"
+        },
+        {
+          "itemNumber": "78313",
+          "upcNumber": "814558020393"
+        },
+        {
+          "itemNumber": "10361",
+          "upcNumber": "859977005279"
+        },
+        {
+          "itemNumber": "78633",
+          "upcNumber": "859977005064"
+        },
+        {
+          "itemNumber": "78512",
+          "upcNumber": "858996005000"
+        },
+        {
+          "itemNumber": "34300",
+          "upcNumber": "722430650166"
+        },
+        {
+          "itemNumber": "36671",
+          "upcNumber": "722430160160"
+        },
+        {
+          "itemNumber": "68070",
+          "upcNumber": "722430160030"
+        },
+        {
+          "itemNumber": "39191",
+          "upcNumber": "81312610002"
+        },
+        {
+          "itemNumber": "12260",
+          "upcNumber": "76371011297"
+        },
+        {
+          "itemNumber": "14111",
+          "upcNumber": "859078002153"
+        },
+        {
+          "itemNumber": "27121",
+          "upcNumber": "850003023700"
+        },
+        {
+          "itemNumber": "53573",
+          "upcNumber": "856624004753"
+        },
+        {
+          "itemNumber": "00993",
+          "upcNumber": "855088005467"
+        },
+        {
+          "itemNumber": "65203",
+          "upcNumber": "23547400119"
+        },
+        {
+          "itemNumber": "03981",
+          "upcNumber": "857554005711"
+        },
+        {
+          "itemNumber": "66865",
+          "upcNumber": "857554005018"
+        },
+        {
+          "itemNumber": "17737",
+          "upcNumber": "853923002107"
+        },
+        {
+          "itemNumber": "79465",
+          "upcNumber": "190646641016"
+        },
+        {
+          "itemNumber": "10241",
+          "upcNumber": "93966000283"
+        },
+        {
+          "itemNumber": "10198",
+          "upcNumber": "93966000146"
+        },
+        {
+          "itemNumber": "10210",
+          "upcNumber": "93966000917"
+        },
+        {
+          "itemNumber": "10233",
+          "upcNumber": "93966000337"
+        },
+        {
+          "itemNumber": "10244",
+          "upcNumber": "93966510157"
+        },
+        {
+          "itemNumber": "10288",
+          "upcNumber": "93966000214"
+        },
+        {
+          "itemNumber": "10290",
+          "upcNumber": "93966510522"
+        },
+        {
+          "itemNumber": "13769",
+          "upcNumber": "93966002218"
+        },
+        {
+          "itemNumber": "40619",
+          "upcNumber": "93966005127"
+        },
+        {
+          "itemNumber": "10211",
+          "upcNumber": "93966330007"
+        },
+        {
+          "itemNumber": "10272",
+          "upcNumber": "93966211016"
+        },
+        {
+          "itemNumber": "11101",
+          "upcNumber": "93966008326"
+        },
+        {
+          "itemNumber": "06214",
+          "upcNumber": "860439001067"
+        },
+        {
+          "itemNumber": "37522",
+          "upcNumber": "860003223307"
+        },
+        {
+          "itemNumber": "37527",
+          "upcNumber": "860439001005"
+        },
+        {
+          "itemNumber": "37528",
+          "upcNumber": "860439001029"
+        },
+        {
+          "itemNumber": "37529",
+          "upcNumber": "860439001012"
+        },
+        {
+          "itemNumber": "37588",
+          "upcNumber": "860439001081"
+        },
+        {
+          "itemNumber": "66090",
+          "upcNumber": "860003223390"
+        },
+        {
+          "itemNumber": "10683",
+          "upcNumber": "81312100015"
+        },
+        {
+          "itemNumber": "12261",
+          "upcNumber": "25293600232"
+        },
+        {
+          "itemNumber": "12322",
+          "upcNumber": "25293602175"
+        },
+        {
+          "itemNumber": "13431",
+          "upcNumber": "25293600423"
+        },
+        {
+          "itemNumber": "68538",
+          "upcNumber": "25000040887"
+        },
+        {
+          "itemNumber": "69132",
+          "upcNumber": "25000044984"
+        },
+        {
+          "itemNumber": "15383",
+          "upcNumber": "744473912025"
+        },
+        {
+          "itemNumber": "36795",
+          "upcNumber": "649241929109"
+        },
+        {
+          "itemNumber": "12042",
+          "upcNumber": "784830001771"
+        },
+        {
+          "itemNumber": "13608",
+          "upcNumber": "784830001108"
+        },
+        {
+          "itemNumber": "18751",
+          "upcNumber": "784830004000"
+        },
+        {
+          "itemNumber": "44069",
+          "upcNumber": "784830000507"
+        },
+        {
+          "itemNumber": "44070",
+          "upcNumber": "784830000606"
+        },
+        {
+          "itemNumber": "54005",
+          "upcNumber": "25583668744"
+        },
+        {
+          "itemNumber": "54006",
+          "upcNumber": "25583004221"
+        },
+        {
+          "itemNumber": "54012",
+          "upcNumber": "25583006027"
+        },
+        {
+          "itemNumber": "79759",
+          "upcNumber": "855312004105"
+        },
+        {
+          "itemNumber": "21050",
+          "upcNumber": "861745000010"
+        },
+        {
+          "itemNumber": "11669",
+          "upcNumber": "74483902960"
+        },
+        {
+          "itemNumber": "43099",
+          "upcNumber": "74483901192"
+        },
+        {
+          "itemNumber": "49775",
+          "upcNumber": "74483990011"
+        },
+        {
+          "itemNumber": "12800",
+          "upcNumber": "30871301500"
+        },
+        {
+          "itemNumber": "66642",
+          "upcNumber": "30871000021"
+        },
+        {
+          "itemNumber": "37636",
+          "upcNumber": "72050110107"
+        },
+        {
+          "itemNumber": "70062",
+          "upcNumber": "638031612178"
+        },
+        {
+          "itemNumber": "12742",
+          "upcNumber": "41570068373"
+        },
+        {
+          "itemNumber": "22184",
+          "upcNumber": "842605111411"
+        },
+        {
+          "itemNumber": "74289",
+          "upcNumber": "860000709651"
+        },
+        {
+          "itemNumber": "67887",
+          "upcNumber": "73490158001"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "138-286-043",
+          "customerOrderNumber": "68674757",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68674757-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 3242.55,
+      "invoiceTotalCases": 104,
+      "invoiceTotalWeight": 1483.69
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "47804",
+          "upcNumber": "784830002013"
+        },
+        {
+          "itemNumber": "47805",
+          "upcNumber": "784830000415"
+        },
+        {
+          "itemNumber": "47810",
+          "upcNumber": "784830000118"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "463-657-749",
+          "customerOrderNumber": "68674762",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68674762-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 236.4,
+      "invoiceTotalCases": 4,
+      "invoiceTotalWeight": 124.8
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "56645",
+          "upcNumber": "854560005018"
+        },
+        {
+          "itemNumber": "56677",
+          "upcNumber": "854560005032"
+        },
+        {
+          "itemNumber": "68538",
+          "upcNumber": "25000040887"
+        },
+        {
+          "itemNumber": "69132",
+          "upcNumber": "25000044984"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "0022746073",
+          "customerOrderNumber": "68674830",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68674830-002",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 0,
+      "invoiceTotalCases": 0,
+      "invoiceTotalWeight": 0
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "00516",
+          "upcNumber": "26938903107"
+        },
+        {
+          "itemNumber": "00517",
+          "upcNumber": "26938494780"
+        },
+        {
+          "itemNumber": "00552",
+          "upcNumber": "26938548407"
+        },
+        {
+          "itemNumber": "00555",
+          "upcNumber": "26938465193"
+        },
+        {
+          "itemNumber": "03602",
+          "upcNumber": "89836026156"
+        },
+        {
+          "itemNumber": "01553",
+          "upcNumber": "73416401228"
+        },
+        {
+          "itemNumber": "01556",
+          "upcNumber": "73416401327"
+        },
+        {
+          "itemNumber": "01604",
+          "upcNumber": "73416402027"
+        },
+        {
+          "itemNumber": "01618",
+          "upcNumber": "73416040908"
+        },
+        {
+          "itemNumber": "00488",
+          "upcNumber": "692752100024"
+        },
+        {
+          "itemNumber": "00169",
+          "upcNumber": "39978108159"
+        },
+        {
+          "itemNumber": "19562",
+          "upcNumber": "39978103161"
+        },
+        {
+          "itemNumber": "00232",
+          "upcNumber": "86700060315"
+        },
+        {
+          "itemNumber": "33454",
+          "upcNumber": "86700508176"
+        },
+        {
+          "itemNumber": "60904",
+          "upcNumber": "86700922019"
+        },
+        {
+          "itemNumber": "02396",
+          "upcNumber": "27064594054"
+        },
+        {
+          "itemNumber": "02397",
+          "upcNumber": "27064594252"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "0052904527",
+          "customerOrderNumber": "68674831",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68674831-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 871.52,
+      "invoiceTotalCases": 17,
+      "invoiceTotalWeight": 353.45
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "70356",
+          "upcNumber": "850334004102"
+        },
+        {
+          "itemNumber": "60157",
+          "upcNumber": "731984100607"
+        },
+        {
+          "itemNumber": "60724",
+          "upcNumber": "717256000042"
+        },
+        {
+          "itemNumber": "60730",
+          "upcNumber": "717256000424"
+        },
+        {
+          "itemNumber": "61003",
+          "upcNumber": "717256000431"
+        },
+        {
+          "itemNumber": "61004",
+          "upcNumber": "717256000639"
+        },
+        {
+          "itemNumber": "60657",
+          "upcNumber": "11013120500"
+        },
+        {
+          "itemNumber": "49230",
+          "upcNumber": "749174095374"
+        },
+        {
+          "itemNumber": "63390",
+          "upcNumber": "770009250897"
+        },
+        {
+          "itemNumber": "85328",
+          "upcNumber": "770009250620"
+        },
+        {
+          "itemNumber": "60687",
+          "upcNumber": "18065981271"
+        },
+        {
+          "itemNumber": "60639",
+          "upcNumber": "706173003571"
+        },
+        {
+          "itemNumber": "54580",
+          "upcNumber": "10900000154"
+        },
+        {
+          "itemNumber": "57548",
+          "upcNumber": "732913449828"
+        },
+        {
+          "itemNumber": "62572",
+          "upcNumber": "732913227013"
+        },
+        {
+          "itemNumber": "62576",
+          "upcNumber": "732913221516"
+        },
+        {
+          "itemNumber": "62577",
+          "upcNumber": "732913221509"
+        },
+        {
+          "itemNumber": "38388",
+          "upcNumber": "854803005256"
+        },
+        {
+          "itemNumber": "49237",
+          "upcNumber": "711535513421"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "213-509-724",
+          "customerOrderNumber": "68674834",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68674834-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 565.58,
+      "invoiceTotalCases": 16,
+      "invoiceTotalWeight": 252.77
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "28315",
+          "upcNumber": "37688000244"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "171-922-547",
+          "customerOrderNumber": "68675010",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68675010-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 32.04,
+      "invoiceTotalCases": 6,
+      "invoiceTotalWeight": 318
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "14250",
+          "upcNumber": "76371041133"
+        },
+        {
+          "itemNumber": "23685",
+          "upcNumber": "811961020750"
+        },
+        {
+          "itemNumber": "85551",
+          "upcNumber": "689383002100"
+        },
+        {
+          "itemNumber": "85553",
+          "upcNumber": "689383002148"
+        },
+        {
+          "itemNumber": "73736",
+          "upcNumber": "71072011294"
+        },
+        {
+          "itemNumber": "73737",
+          "upcNumber": "71072011300"
+        },
+        {
+          "itemNumber": "73720",
+          "upcNumber": "71072003657"
+        },
+        {
+          "itemNumber": "54816",
+          "upcNumber": "817670011904"
+        },
+        {
+          "itemNumber": "23712",
+          "upcNumber": "42272005840"
+        },
+        {
+          "itemNumber": "34782",
+          "upcNumber": "42272006267"
+        },
+        {
+          "itemNumber": "77149",
+          "upcNumber": "42272005055"
+        },
+        {
+          "itemNumber": "78028",
+          "upcNumber": "42272005383"
+        },
+        {
+          "itemNumber": "85659",
+          "upcNumber": "765667110737"
+        },
+        {
+          "itemNumber": "24173",
+          "upcNumber": "92325333444"
+        },
+        {
+          "itemNumber": "30913",
+          "upcNumber": "92325333314"
+        },
+        {
+          "itemNumber": "24893",
+          "upcNumber": "13562108367"
+        },
+        {
+          "itemNumber": "01904",
+          "upcNumber": "13562116454"
+        },
+        {
+          "itemNumber": "52265",
+          "upcNumber": "13562000531"
+        },
+        {
+          "itemNumber": "62418",
+          "upcNumber": "13562111206"
+        },
+        {
+          "itemNumber": "22286",
+          "upcNumber": "13562300983"
+        },
+        {
+          "itemNumber": "37784",
+          "upcNumber": "870001002590"
+        },
+        {
+          "itemNumber": "89573",
+          "upcNumber": "819898010219"
+        },
+        {
+          "itemNumber": "89576",
+          "upcNumber": "819898010240"
+        },
+        {
+          "itemNumber": "89618",
+          "upcNumber": "819898010288"
+        },
+        {
+          "itemNumber": "62785",
+          "upcNumber": "70718000968"
+        },
+        {
+          "itemNumber": "52723",
+          "upcNumber": "70617206126"
+        },
+        {
+          "itemNumber": "37554",
+          "upcNumber": "98308225812"
+        },
+        {
+          "itemNumber": "01894",
+          "upcNumber": "898575001368"
+        },
+        {
+          "itemNumber": "01896",
+          "upcNumber": "898575001351"
+        },
+        {
+          "itemNumber": "01897",
+          "upcNumber": "898575001078"
+        },
+        {
+          "itemNumber": "18130",
+          "upcNumber": "898575001696"
+        },
+        {
+          "itemNumber": "33614",
+          "upcNumber": "898575001030"
+        },
+        {
+          "itemNumber": "60003",
+          "upcNumber": "898575001115"
+        },
+        {
+          "itemNumber": "65171",
+          "upcNumber": "892234002000"
+        },
+        {
+          "itemNumber": "79532",
+          "upcNumber": "799210434018"
+        },
+        {
+          "itemNumber": "01440",
+          "upcNumber": "829262000203"
+        },
+        {
+          "itemNumber": "80783",
+          "upcNumber": "88702845679"
+        },
+        {
+          "itemNumber": "57212",
+          "upcNumber": "74305031120"
+        },
+        {
+          "itemNumber": "73003",
+          "upcNumber": "98308242673"
+        },
+        {
+          "itemNumber": "28210",
+          "upcNumber": "95684300126"
+        },
+        {
+          "itemNumber": "54763",
+          "upcNumber": "95684300157"
+        },
+        {
+          "itemNumber": "58196",
+          "upcNumber": "21908743318"
+        },
+        {
+          "itemNumber": "58217",
+          "upcNumber": "21908455570"
+        },
+        {
+          "itemNumber": "63789",
+          "upcNumber": "856336001842"
+        },
+        {
+          "itemNumber": "20904",
+          "upcNumber": "70734516542"
+        },
+        {
+          "itemNumber": "28056",
+          "upcNumber": "70734053290"
+        },
+        {
+          "itemNumber": "63487",
+          "upcNumber": "70734053177"
+        },
+        {
+          "itemNumber": "63493",
+          "upcNumber": "70734053283"
+        },
+        {
+          "itemNumber": "11355",
+          "upcNumber": "70796800177"
+        },
+        {
+          "itemNumber": "11356",
+          "upcNumber": "70796800139"
+        },
+        {
+          "itemNumber": "21776",
+          "upcNumber": "70796800115"
+        },
+        {
+          "itemNumber": "75717",
+          "upcNumber": "70796400087"
+        },
+        {
+          "itemNumber": "80681",
+          "upcNumber": "70796903045"
+        },
+        {
+          "itemNumber": "11124",
+          "upcNumber": "51299111304"
+        },
+        {
+          "itemNumber": "20155",
+          "upcNumber": "51299111274"
+        },
+        {
+          "itemNumber": "07673",
+          "upcNumber": "716270080023"
+        },
+        {
+          "itemNumber": "20838",
+          "upcNumber": "716270051306"
+        },
+        {
+          "itemNumber": "20840",
+          "upcNumber": "716270051528"
+        },
+        {
+          "itemNumber": "37056",
+          "upcNumber": "716270060025"
+        },
+        {
+          "itemNumber": "37058",
+          "upcNumber": "716270060049"
+        },
+        {
+          "itemNumber": "59475",
+          "upcNumber": "722252601483"
+        },
+        {
+          "itemNumber": "25135",
+          "upcNumber": "39153413009"
+        },
+        {
+          "itemNumber": "63854",
+          "upcNumber": "67275000319"
+        },
+        {
+          "itemNumber": "27414",
+          "upcNumber": "75140005000"
+        },
+        {
+          "itemNumber": "27435",
+          "upcNumber": "75140005154"
+        },
+        {
+          "itemNumber": "52630",
+          "upcNumber": "75140005055"
+        },
+        {
+          "itemNumber": "62049",
+          "upcNumber": "75140700028"
+        },
+        {
+          "itemNumber": "28315",
+          "upcNumber": "37688000244"
+        },
+        {
+          "itemNumber": "05885",
+          "upcNumber": "728119098687"
+        },
+        {
+          "itemNumber": "68073",
+          "upcNumber": "72368551715"
+        },
+        {
+          "itemNumber": "64738",
+          "upcNumber": "24094070244"
+        },
+        {
+          "itemNumber": "64790",
+          "upcNumber": "24094070930"
+        },
+        {
+          "itemNumber": "33768",
+          "upcNumber": "852749004005"
+        },
+        {
+          "itemNumber": "33537",
+          "upcNumber": "24182000818"
+        },
+        {
+          "itemNumber": "12969",
+          "upcNumber": "24182000481"
+        },
+        {
+          "itemNumber": "28214",
+          "upcNumber": "24182000733"
+        },
+        {
+          "itemNumber": "20994",
+          "upcNumber": "43182000598"
+        },
+        {
+          "itemNumber": "60894",
+          "upcNumber": "868335000306"
+        },
+        {
+          "itemNumber": "36581",
+          "upcNumber": "23547300525"
+        },
+        {
+          "itemNumber": "65066",
+          "upcNumber": "23547300518"
+        },
+        {
+          "itemNumber": "31651",
+          "upcNumber": "37014242478"
+        },
+        {
+          "itemNumber": "59793",
+          "upcNumber": "37014000375"
+        },
+        {
+          "itemNumber": "35664",
+          "upcNumber": "853522000306"
+        },
+        {
+          "itemNumber": "69614",
+          "upcNumber": "732153248816"
+        },
+        {
+          "itemNumber": "63356",
+          "upcNumber": "732153029170"
+        },
+        {
+          "itemNumber": "85528",
+          "upcNumber": "58336176043"
+        },
+        {
+          "itemNumber": "80231",
+          "upcNumber": "639713990317"
+        },
+        {
+          "itemNumber": "80233",
+          "upcNumber": "639713990331"
+        },
+        {
+          "itemNumber": "11460",
+          "upcNumber": "42563605759"
+        },
+        {
+          "itemNumber": "22368",
+          "upcNumber": "42563605209"
+        },
+        {
+          "itemNumber": "04944",
+          "upcNumber": "42563601942"
+        },
+        {
+          "itemNumber": "21335",
+          "upcNumber": "659201102022"
+        },
+        {
+          "itemNumber": "69445",
+          "upcNumber": "70216244048"
+        },
+        {
+          "itemNumber": "28440",
+          "upcNumber": "89836183514"
+        },
+        {
+          "itemNumber": "19856",
+          "upcNumber": "604183130402"
+        },
+        {
+          "itemNumber": "29876",
+          "upcNumber": "678523010402"
+        },
+        {
+          "itemNumber": "29878",
+          "upcNumber": "678523010419"
+        },
+        {
+          "itemNumber": "20606",
+          "upcNumber": "11259904025"
+        },
+        {
+          "itemNumber": "22252",
+          "upcNumber": "716445111002"
+        },
+        {
+          "itemNumber": "39043",
+          "upcNumber": "852697001194"
+        },
+        {
+          "itemNumber": "39044",
+          "upcNumber": "852697001200"
+        },
+        {
+          "itemNumber": "29543",
+          "upcNumber": "657622111753"
+        },
+        {
+          "itemNumber": "01388",
+          "upcNumber": "850024267343"
+        },
+        {
+          "itemNumber": "36447",
+          "upcNumber": "897988000579"
+        },
+        {
+          "itemNumber": "61230",
+          "upcNumber": "897988000135"
+        },
+        {
+          "itemNumber": "30596",
+          "upcNumber": "897988000029"
+        },
+        {
+          "itemNumber": "30599",
+          "upcNumber": "897988000098"
+        },
+        {
+          "itemNumber": "34441",
+          "upcNumber": "819046000420"
+        },
+        {
+          "itemNumber": "22305",
+          "upcNumber": "858234006653"
+        },
+        {
+          "itemNumber": "42404",
+          "upcNumber": "73214007509"
+        },
+        {
+          "itemNumber": "26211",
+          "upcNumber": "815421013016"
+        },
+        {
+          "itemNumber": "39788",
+          "upcNumber": "84114114464"
+        },
+        {
+          "itemNumber": "27927",
+          "upcNumber": "850010613413"
+        },
+        {
+          "itemNumber": "42197",
+          "upcNumber": "602652199776"
+        },
+        {
+          "itemNumber": "35617",
+          "upcNumber": "71012080069"
+        },
+        {
+          "itemNumber": "65178",
+          "upcNumber": "620133600153"
+        },
+        {
+          "itemNumber": "66836",
+          "upcNumber": "857190000316"
+        },
+        {
+          "itemNumber": "04439",
+          "upcNumber": "12993221331"
+        },
+        {
+          "itemNumber": "10820",
+          "upcNumber": "843076000556"
+        },
+        {
+          "itemNumber": "73128",
+          "upcNumber": "42608459101"
+        },
+        {
+          "itemNumber": "63923",
+          "upcNumber": "21908509259"
+        },
+        {
+          "itemNumber": "66505",
+          "upcNumber": "21908515458"
+        },
+        {
+          "itemNumber": "66643",
+          "upcNumber": "21908509341"
+        },
+        {
+          "itemNumber": "38760",
+          "upcNumber": "855611008361"
+        },
+        {
+          "itemNumber": "25060",
+          "upcNumber": "43182002059"
+        },
+        {
+          "itemNumber": "10610",
+          "upcNumber": "857593004133"
+        },
+        {
+          "itemNumber": "21975",
+          "upcNumber": "708953651019"
+        },
+        {
+          "itemNumber": "03459",
+          "upcNumber": "708953651040"
+        },
+        {
+          "itemNumber": "03851",
+          "upcNumber": "708953641010"
+        },
+        {
+          "itemNumber": "03852",
+          "upcNumber": "708953641027"
+        },
+        {
+          "itemNumber": "19997",
+          "upcNumber": "708953651057"
+        },
+        {
+          "itemNumber": "35315",
+          "upcNumber": "73416035300"
+        },
+        {
+          "itemNumber": "30424",
+          "upcNumber": "73416541504"
+        },
+        {
+          "itemNumber": "32903",
+          "upcNumber": "73416197640"
+        },
+        {
+          "itemNumber": "32906",
+          "upcNumber": "73416197626"
+        },
+        {
+          "itemNumber": "32910",
+          "upcNumber": "73416402041"
+        },
+        {
+          "itemNumber": "32915",
+          "upcNumber": "73416401525"
+        },
+        {
+          "itemNumber": "46179",
+          "upcNumber": "73416562806"
+        },
+        {
+          "itemNumber": "55412",
+          "upcNumber": "73416000179"
+        },
+        {
+          "itemNumber": "55437",
+          "upcNumber": "73416558403"
+        },
+        {
+          "itemNumber": "55439",
+          "upcNumber": "73416553002"
+        },
+        {
+          "itemNumber": "55458",
+          "upcNumber": "73416000476"
+        },
+        {
+          "itemNumber": "02491",
+          "upcNumber": "853665005107"
+        },
+        {
+          "itemNumber": "37950",
+          "upcNumber": "858034006488"
+        },
+        {
+          "itemNumber": "84265",
+          "upcNumber": "858034006174"
+        },
+        {
+          "itemNumber": "53554",
+          "upcNumber": "858034006303"
+        },
+        {
+          "itemNumber": "12556",
+          "upcNumber": "72904000028"
+        },
+        {
+          "itemNumber": "76741",
+          "upcNumber": "73214001057"
+        },
+        {
+          "itemNumber": "67536",
+          "upcNumber": "812668020678"
+        },
+        {
+          "itemNumber": "72632",
+          "upcNumber": "812668020630"
+        },
+        {
+          "itemNumber": "72633",
+          "upcNumber": "812668020654"
+        },
+        {
+          "itemNumber": "37681",
+          "upcNumber": "606541803010"
+        },
+        {
+          "itemNumber": "54391",
+          "upcNumber": "815677022077"
+        },
+        {
+          "itemNumber": "05534",
+          "upcNumber": "15532000114"
+        },
+        {
+          "itemNumber": "29434",
+          "upcNumber": "15532100968"
+        },
+        {
+          "itemNumber": "68640",
+          "upcNumber": "15532101019"
+        },
+        {
+          "itemNumber": "68641",
+          "upcNumber": "15532101033"
+        },
+        {
+          "itemNumber": "68645",
+          "upcNumber": "15532101064"
+        },
+        {
+          "itemNumber": "68646",
+          "upcNumber": "15532101101"
+        },
+        {
+          "itemNumber": "68647",
+          "upcNumber": "15532101071"
+        },
+        {
+          "itemNumber": "68649",
+          "upcNumber": "15532101088"
+        },
+        {
+          "itemNumber": "67625",
+          "upcNumber": "819385023326"
+        },
+        {
+          "itemNumber": "04417",
+          "upcNumber": "725342497416"
+        },
+        {
+          "itemNumber": "04521",
+          "upcNumber": "725342290536"
+        },
+        {
+          "itemNumber": "04522",
+          "upcNumber": "725342290437"
+        },
+        {
+          "itemNumber": "04544",
+          "upcNumber": "725342283934"
+        },
+        {
+          "itemNumber": "04573",
+          "upcNumber": "725342260737"
+        },
+        {
+          "itemNumber": "31408",
+          "upcNumber": "725342293735"
+        },
+        {
+          "itemNumber": "85254",
+          "upcNumber": "612322030032"
+        },
+        {
+          "itemNumber": "85254",
+          "upcNumber": "612322030032"
+        },
+        {
+          "itemNumber": "85255",
+          "upcNumber": "612322030117"
+        },
+        {
+          "itemNumber": "85255",
+          "upcNumber": "612322030117"
+        },
+        {
+          "itemNumber": "85256",
+          "upcNumber": "612322000059"
+        },
+        {
+          "itemNumber": "85256",
+          "upcNumber": "612322000059"
+        },
+        {
+          "itemNumber": "29441",
+          "upcNumber": "850403000066"
+        },
+        {
+          "itemNumber": "25919",
+          "upcNumber": "786969030028"
+        },
+        {
+          "itemNumber": "13288",
+          "upcNumber": "41253003141"
+        },
+        {
+          "itemNumber": "04839",
+          "upcNumber": "706173005032"
+        },
+        {
+          "itemNumber": "33891",
+          "upcNumber": "43182008365"
+        },
+        {
+          "itemNumber": "59686",
+          "upcNumber": "757645021043"
+        },
+        {
+          "itemNumber": "80939",
+          "upcNumber": "757645021524"
+        },
+        {
+          "itemNumber": "16349",
+          "upcNumber": "884284040309"
+        },
+        {
+          "itemNumber": "35173",
+          "upcNumber": "884284040255"
+        },
+        {
+          "itemNumber": "48879",
+          "upcNumber": "859154005016"
+        },
+        {
+          "itemNumber": "43260",
+          "upcNumber": "675625372070"
+        },
+        {
+          "itemNumber": "62989",
+          "upcNumber": "675625373077"
+        },
+        {
+          "itemNumber": "29925",
+          "upcNumber": "707082700605"
+        },
+        {
+          "itemNumber": "88353",
+          "upcNumber": "93709801016"
+        },
+        {
+          "itemNumber": "88354",
+          "upcNumber": "93709801030"
+        },
+        {
+          "itemNumber": "88356",
+          "upcNumber": "93709801023"
+        },
+        {
+          "itemNumber": "26840",
+          "upcNumber": "891760002980"
+        },
+        {
+          "itemNumber": "26846",
+          "upcNumber": "891760002973"
+        },
+        {
+          "itemNumber": "70863",
+          "upcNumber": "891760002751"
+        },
+        {
+          "itemNumber": "70864",
+          "upcNumber": "891760002966"
+        },
+        {
+          "itemNumber": "83144",
+          "upcNumber": "893222000305"
+        },
+        {
+          "itemNumber": "46757",
+          "upcNumber": "37279080037"
+        },
+        {
+          "itemNumber": "30032",
+          "upcNumber": "667803000950"
+        },
+        {
+          "itemNumber": "43130",
+          "upcNumber": "846558000433"
+        },
+        {
+          "itemNumber": "69051",
+          "upcNumber": "846558000105"
+        },
+        {
+          "itemNumber": "35920",
+          "upcNumber": "857636006568"
+        },
+        {
+          "itemNumber": "09146",
+          "upcNumber": "810033280054"
+        },
+        {
+          "itemNumber": "35743",
+          "upcNumber": "49508250067"
+        },
+        {
+          "itemNumber": "65710",
+          "upcNumber": "810589031278"
+        },
+        {
+          "itemNumber": "24009",
+          "upcNumber": "747479001182"
+        },
+        {
+          "itemNumber": "76900",
+          "upcNumber": "747479400015"
+        },
+        {
+          "itemNumber": "53337",
+          "upcNumber": "671959000030"
+        },
+        {
+          "itemNumber": "53339",
+          "upcNumber": "671959000047"
+        },
+        {
+          "itemNumber": "52128",
+          "upcNumber": "39978001702"
+        },
+        {
+          "itemNumber": "19505",
+          "upcNumber": "39978533012"
+        },
+        {
+          "itemNumber": "37002",
+          "upcNumber": "39978029911"
+        },
+        {
+          "itemNumber": "59583",
+          "upcNumber": "39978045010"
+        },
+        {
+          "itemNumber": "85221",
+          "upcNumber": "829739000637"
+        },
+        {
+          "itemNumber": "85534",
+          "upcNumber": "854171004004"
+        },
+        {
+          "itemNumber": "80064",
+          "upcNumber": "853094004641"
+        },
+        {
+          "itemNumber": "80065",
+          "upcNumber": "853094004634"
+        },
+        {
+          "itemNumber": "80068",
+          "upcNumber": "853094004610"
+        },
+        {
+          "itemNumber": "89804",
+          "upcNumber": "41756080083"
+        },
+        {
+          "itemNumber": "66563",
+          "upcNumber": "75810001356"
+        },
+        {
+          "itemNumber": "18437",
+          "upcNumber": "41508992688"
+        },
+        {
+          "itemNumber": "18449",
+          "upcNumber": "41508659376"
+        },
+        {
+          "itemNumber": "22148",
+          "upcNumber": "89156001369"
+        },
+        {
+          "itemNumber": "02496",
+          "upcNumber": "77034013412"
+        },
+        {
+          "itemNumber": "28956",
+          "upcNumber": "78487372330"
+        },
+        {
+          "itemNumber": "52331",
+          "upcNumber": "66676692604"
+        },
+        {
+          "itemNumber": "27357",
+          "upcNumber": "853986008078"
+        },
+        {
+          "itemNumber": "78976",
+          "upcNumber": "859764006175"
+        },
+        {
+          "itemNumber": "58784",
+          "upcNumber": "856069005742"
+        },
+        {
+          "itemNumber": "28640",
+          "upcNumber": "89836185198"
+        },
+        {
+          "itemNumber": "43083",
+          "upcNumber": "669809201607"
+        },
+        {
+          "itemNumber": "01759",
+          "upcNumber": "853072002522"
+        },
+        {
+          "itemNumber": "80483",
+          "upcNumber": "815055010009"
+        },
+        {
+          "itemNumber": "80484",
+          "upcNumber": "815055010023"
+        },
+        {
+          "itemNumber": "80485",
+          "upcNumber": "815055010061"
+        },
+        {
+          "itemNumber": "13511",
+          "upcNumber": "826998007315"
+        },
+        {
+          "itemNumber": "13517",
+          "upcNumber": "826998040718"
+        },
+        {
+          "itemNumber": "13567",
+          "upcNumber": "826998040855"
+        },
+        {
+          "itemNumber": "13576",
+          "upcNumber": "826998007599"
+        },
+        {
+          "itemNumber": "13656",
+          "upcNumber": "826998007346"
+        },
+        {
+          "itemNumber": "13705",
+          "upcNumber": "826998040886"
+        },
+        {
+          "itemNumber": "89377",
+          "upcNumber": "818512015159"
+        },
+        {
+          "itemNumber": "60869",
+          "upcNumber": "854775002079"
+        },
+        {
+          "itemNumber": "36974",
+          "upcNumber": "711381023198"
+        },
+        {
+          "itemNumber": "60522",
+          "upcNumber": "602652170300"
+        },
+        {
+          "itemNumber": "47850",
+          "upcNumber": "22929428017"
+        },
+        {
+          "itemNumber": "47852",
+          "upcNumber": "22929428048"
+        },
+        {
+          "itemNumber": "25786",
+          "upcNumber": "794522200054"
+        },
+        {
+          "itemNumber": "25787",
+          "upcNumber": "794522200078"
+        },
+        {
+          "itemNumber": "25797",
+          "upcNumber": "794522200788"
+        },
+        {
+          "itemNumber": "05477",
+          "upcNumber": "850573005090"
+        },
+        {
+          "itemNumber": "64101",
+          "upcNumber": "874492005443"
+        },
+        {
+          "itemNumber": "64102",
+          "upcNumber": "874492005436"
+        },
+        {
+          "itemNumber": "42350",
+          "upcNumber": "874492003920"
+        },
+        {
+          "itemNumber": "33661",
+          "upcNumber": "753656701271"
+        },
+        {
+          "itemNumber": "33664",
+          "upcNumber": "753656701202"
+        },
+        {
+          "itemNumber": "28031",
+          "upcNumber": "32917001023"
+        },
+        {
+          "itemNumber": "28961",
+          "upcNumber": "32917001597"
+        },
+        {
+          "itemNumber": "29001",
+          "upcNumber": "32917000156"
+        },
+        {
+          "itemNumber": "29004",
+          "upcNumber": "32917000163"
+        },
+        {
+          "itemNumber": "29009",
+          "upcNumber": "32917000132"
+        },
+        {
+          "itemNumber": "29014",
+          "upcNumber": "32917000514"
+        },
+        {
+          "itemNumber": "29022",
+          "upcNumber": "32917000897"
+        },
+        {
+          "itemNumber": "29036",
+          "upcNumber": "32917000675"
+        },
+        {
+          "itemNumber": "29039",
+          "upcNumber": "32917001016"
+        },
+        {
+          "itemNumber": "29056",
+          "upcNumber": "32917000521"
+        },
+        {
+          "itemNumber": "29067",
+          "upcNumber": "32917001658"
+        },
+        {
+          "itemNumber": "29173",
+          "upcNumber": "32917001979"
+        },
+        {
+          "itemNumber": "26976",
+          "upcNumber": "70177154240"
+        },
+        {
+          "itemNumber": "26978",
+          "upcNumber": "70177154196"
+        },
+        {
+          "itemNumber": "39727",
+          "upcNumber": "790555061518"
+        },
+        {
+          "itemNumber": "22659",
+          "upcNumber": "853547003764"
+        },
+        {
+          "itemNumber": "38938",
+          "upcNumber": "853547003863"
+        },
+        {
+          "itemNumber": "60180",
+          "upcNumber": "829696001326"
+        },
+        {
+          "itemNumber": "01745",
+          "upcNumber": "42563015855"
+        },
+        {
+          "itemNumber": "19732",
+          "upcNumber": "52196000722"
+        },
+        {
+          "itemNumber": "19734",
+          "upcNumber": "52196000746"
+        },
+        {
+          "itemNumber": "73876",
+          "upcNumber": "860001541953"
+        },
+        {
+          "itemNumber": "35588",
+          "upcNumber": "894773001032"
+        },
+        {
+          "itemNumber": "35645",
+          "upcNumber": "894773001100"
+        },
+        {
+          "itemNumber": "35646",
+          "upcNumber": "894773001117"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "430-888-517",
+          "customerOrderNumber": "68675049",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68675049-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 4076.02,
+      "invoiceTotalCases": 185,
+      "invoiceTotalWeight": 1435.01
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "16426",
+          "upcNumber": "58449000075"
+        },
+        {
+          "itemNumber": "41870",
+          "upcNumber": "80868000602"
+        },
+        {
+          "itemNumber": "41870",
+          "upcNumber": "80868000602"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "0039488034",
+          "customerOrderNumber": "68675058",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68675058-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 75.18,
+      "invoiceTotalCases": 3,
+      "invoiceTotalWeight": 17.1
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "16305",
+          "upcNumber": "28833060107"
+        },
+        {
+          "itemNumber": "16321",
+          "upcNumber": "28833041007"
+        },
+        {
+          "itemNumber": "70821",
+          "upcNumber": "749601012066"
+        },
+        {
+          "itemNumber": "77787",
+          "upcNumber": "853584002010"
+        },
+        {
+          "itemNumber": "72906",
+          "upcNumber": "73472001851"
+        },
+        {
+          "itemNumber": "16421",
+          "upcNumber": "58449000037"
+        },
+        {
+          "itemNumber": "16427",
+          "upcNumber": "58449000051"
+        },
+        {
+          "itemNumber": "59033",
+          "upcNumber": "698433001239"
+        },
+        {
+          "itemNumber": "59035",
+          "upcNumber": "698433001222"
+        },
+        {
+          "itemNumber": "70917",
+          "upcNumber": "698997809579"
+        },
+        {
+          "itemNumber": "05713",
+          "upcNumber": "72609051158"
+        },
+        {
+          "itemNumber": "07713",
+          "upcNumber": "72609049698"
+        },
+        {
+          "itemNumber": "07715",
+          "upcNumber": "72609049643"
+        },
+        {
+          "itemNumber": "08861",
+          "upcNumber": "72609047915"
+        },
+        {
+          "itemNumber": "78001",
+          "upcNumber": "72609741813"
+        },
+        {
+          "itemNumber": "78671",
+          "upcNumber": "72609741219"
+        },
+        {
+          "itemNumber": "78726",
+          "upcNumber": "72609741233"
+        },
+        {
+          "itemNumber": "70991",
+          "upcNumber": "834183007088"
+        },
+        {
+          "itemNumber": "77277",
+          "upcNumber": "42272001620"
+        },
+        {
+          "itemNumber": "77304",
+          "upcNumber": "42272001019"
+        },
+        {
+          "itemNumber": "77306",
+          "upcNumber": "42272001033"
+        },
+        {
+          "itemNumber": "77363",
+          "upcNumber": "42272000326"
+        },
+        {
+          "itemNumber": "76112",
+          "upcNumber": "765667900208"
+        },
+        {
+          "itemNumber": "01379",
+          "upcNumber": "25317615006"
+        },
+        {
+          "itemNumber": "71384",
+          "upcNumber": "25317006972"
+        },
+        {
+          "itemNumber": "73501",
+          "upcNumber": "25317894005"
+        },
+        {
+          "itemNumber": "79137",
+          "upcNumber": "25317055192"
+        },
+        {
+          "itemNumber": "72287",
+          "upcNumber": "852629004583"
+        },
+        {
+          "itemNumber": "56818",
+          "upcNumber": "807176712733"
+        },
+        {
+          "itemNumber": "70993",
+          "upcNumber": "17873705338"
+        },
+        {
+          "itemNumber": "73703",
+          "upcNumber": "78411123199"
+        },
+        {
+          "itemNumber": "85165",
+          "upcNumber": "859553004375"
+        },
+        {
+          "itemNumber": "85166",
+          "upcNumber": "859553004368"
+        },
+        {
+          "itemNumber": "18239",
+          "upcNumber": "21908490328"
+        },
+        {
+          "itemNumber": "51600",
+          "upcNumber": "21908477138"
+        },
+        {
+          "itemNumber": "74890",
+          "upcNumber": "21908965116"
+        },
+        {
+          "itemNumber": "75994",
+          "upcNumber": "21908501673"
+        },
+        {
+          "itemNumber": "76002",
+          "upcNumber": "21908503356"
+        },
+        {
+          "itemNumber": "76012",
+          "upcNumber": "21908503400"
+        },
+        {
+          "itemNumber": "76024",
+          "upcNumber": "21908501871"
+        },
+        {
+          "itemNumber": "82698",
+          "upcNumber": "862871000325"
+        },
+        {
+          "itemNumber": "18944",
+          "upcNumber": "799512012013"
+        },
+        {
+          "itemNumber": "18973",
+          "upcNumber": "799512012044"
+        },
+        {
+          "itemNumber": "41222",
+          "upcNumber": "896767001059"
+        },
+        {
+          "itemNumber": "81431",
+          "upcNumber": "860003055069"
+        },
+        {
+          "itemNumber": "77455",
+          "upcNumber": "11433112956"
+        },
+        {
+          "itemNumber": "59833",
+          "upcNumber": "84059100058"
+        },
+        {
+          "itemNumber": "45160",
+          "upcNumber": "850010538617"
+        },
+        {
+          "itemNumber": "67344",
+          "upcNumber": "860000268745"
+        },
+        {
+          "itemNumber": "42593",
+          "upcNumber": "853687004294"
+        },
+        {
+          "itemNumber": "41870",
+          "upcNumber": "80868000602"
+        },
+        {
+          "itemNumber": "42038",
+          "upcNumber": "80868000633"
+        },
+        {
+          "itemNumber": "45317",
+          "upcNumber": "747479300070"
+        },
+        {
+          "itemNumber": "45318",
+          "upcNumber": "747479300056"
+        },
+        {
+          "itemNumber": "80440",
+          "upcNumber": "860002155869"
+        },
+        {
+          "itemNumber": "45261",
+          "upcNumber": "744473000265"
+        },
+        {
+          "itemNumber": "71831",
+          "upcNumber": "744473470211"
+        },
+        {
+          "itemNumber": "71284",
+          "upcNumber": "638882000704"
+        },
+        {
+          "itemNumber": "77116",
+          "upcNumber": "638882000612"
+        },
+        {
+          "itemNumber": "77118",
+          "upcNumber": "638882210806"
+        },
+        {
+          "itemNumber": "77120",
+          "upcNumber": "638882000599"
+        },
+        {
+          "itemNumber": "77124",
+          "upcNumber": "638882000070"
+        },
+        {
+          "itemNumber": "77126",
+          "upcNumber": "638882000544"
+        },
+        {
+          "itemNumber": "77127",
+          "upcNumber": "638882000520"
+        },
+        {
+          "itemNumber": "77129",
+          "upcNumber": "638882000551"
+        },
+        {
+          "itemNumber": "78748",
+          "upcNumber": "638882000896"
+        },
+        {
+          "itemNumber": "78827",
+          "upcNumber": "784830100320"
+        },
+        {
+          "itemNumber": "48429",
+          "upcNumber": "628110373182"
+        },
+        {
+          "itemNumber": "73559",
+          "upcNumber": "186852000242"
+        },
+        {
+          "itemNumber": "78460",
+          "upcNumber": "186852000617"
+        },
+        {
+          "itemNumber": "07693",
+          "upcNumber": "850001124010"
+        },
+        {
+          "itemNumber": "73911",
+          "upcNumber": "74677842119"
+        },
+        {
+          "itemNumber": "07120",
+          "upcNumber": "42563018221"
+        },
+        {
+          "itemNumber": "76723",
+          "upcNumber": "857287004111"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "688-619-888",
+          "customerOrderNumber": "68675081",
+          "orderDate": "2022-03-10"
+        }
+      ],
+      "transactionType": "INVOICE",
+      "invoiceNumber": "68675081-003",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-10",
+      "deliveryDate": "2022-03-11",
+      "invoiceTotalAmount": 2112.75,
+      "invoiceTotalCases": 65,
+      "invoiceTotalWeight": 463.9
+    }
+  ]
+}
+
+

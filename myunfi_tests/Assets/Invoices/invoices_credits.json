@@ -1,0 +1,356 @@
+{
+  "page": {
+    "size": 12,
+    "number": 0,
+    "numberOfElements": 12,
+    "totalElements": 161,
+    "totalPages": 14,
+    "isSorted": true
+  },
+  "invoices": [
+    {
+      "items": [
+        {
+          "itemNumber": "10244",
+          "upcNumber": "93966510157"
+        },
+        {
+          "itemNumber": "10245",
+          "upcNumber": "93966512250"
+        },
+        {
+          "itemNumber": "10290",
+          "upcNumber": "93966510522"
+        },
+        {
+          "itemNumber": "20104",
+          "upcNumber": "854074006105"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030222",
+          "customerOrderNumber": "62448068",
+          "orderDate": "2022-03-02"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62448068-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-02",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 37.18,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 25.2
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "85539",
+          "upcNumber": "850403000400"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447554",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447554-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 34.65,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 3.5
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "85539",
+          "upcNumber": "850403000400"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447555",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447555-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 34.65,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 3.5
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "20996",
+          "upcNumber": "43182008525"
+        },
+        {
+          "itemNumber": "23718",
+          "upcNumber": "42272005406"
+        },
+        {
+          "itemNumber": "24720",
+          "upcNumber": "847972000009"
+        },
+        {
+          "itemNumber": "30091",
+          "upcNumber": "667803000905"
+        },
+        {
+          "itemNumber": "37036",
+          "upcNumber": "42563013653"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447556",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447556-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 32.53,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 11.31
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "23235",
+          "upcNumber": "38261857361"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447557",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447557-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 30.5,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 19.55
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "24959",
+          "upcNumber": "860002504018"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447558",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447558-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 14.77,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 8
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "68903",
+          "upcNumber": "811201020229"
+        },
+        {
+          "itemNumber": "85976",
+          "upcNumber": "667803000059"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447559",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447559-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 26.94,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 2.84
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "72080",
+          "upcNumber": "78487452711"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447560",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447560-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 23.73,
+      "invoiceTotalCases": 1,
+      "invoiceTotalWeight": 5
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "35080",
+          "upcNumber": "84114105974"
+        },
+        {
+          "itemNumber": "35252",
+          "upcNumber": "84114100061"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447561",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447561-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 57.92,
+      "invoiceTotalCases": 2,
+      "invoiceTotalWeight": 13.88
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "13143",
+          "upcNumber": "39978022950"
+        },
+        {
+          "itemNumber": "35784",
+          "upcNumber": "708163211058"
+        },
+        {
+          "itemNumber": "35864",
+          "upcNumber": "71524159130"
+        },
+        {
+          "itemNumber": "47607",
+          "upcNumber": "851769007966"
+        },
+        {
+          "itemNumber": "81413",
+          "upcNumber": "12000207822"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447562",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447562-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 97.88,
+      "invoiceTotalCases": 5,
+      "invoiceTotalWeight": 34.57
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "62200",
+          "upcNumber": "770009001123"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447563",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447563-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 72.48,
+      "invoiceTotalCases": 2,
+      "invoiceTotalWeight": 8
+    },
+    {
+      "items": [
+        {
+          "itemNumber": "31408",
+          "upcNumber": "725342293735"
+        },
+        {
+          "itemNumber": "31912",
+          "upcNumber": "93709304104"
+        },
+        {
+          "itemNumber": "41924",
+          "upcNumber": "39978002365"
+        },
+        {
+          "itemNumber": "51054",
+          "upcNumber": "39278192001"
+        },
+        {
+          "itemNumber": "52099",
+          "upcNumber": "74333684275"
+        }
+      ],
+      "orders": [
+        {
+          "poNumber": "030122",
+          "customerOrderNumber": "62447564",
+          "orderDate": "2022-03-01"
+        }
+      ],
+      "transactionType": "CREDIT",
+      "invoiceNumber": "62447564-001",
+      "customerNumber": "001014",
+      "invoiceDate": "2022-03-01",
+      "deliveryDate": "2022-03-04",
+      "invoiceTotalAmount": 290.57,
+      "invoiceTotalCases": 13,
+      "invoiceTotalWeight": 262.42
+    }
+  ]
+}
