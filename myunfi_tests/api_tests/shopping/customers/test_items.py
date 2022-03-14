@@ -17,7 +17,6 @@ class TestItems(TestCase):
         print("Logging in...", end="")
         username = os.getenv("MYUNFI_USERNAME")
         password = os.getenv("MYUNFI_PASSWORD")
-        password = "POSAdmin2489"
         cls.session = requests.Session()
         logged_in = do_login(cls.session, username, password)
         assert logged_in, "Login failed"
