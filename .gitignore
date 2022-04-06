@@ -1,5 +1,7 @@
 myunfi_tests/Assets
-
+*.log
+*.pickle
+*.pkl
 # Intellij
 .idea/
 *.profile
