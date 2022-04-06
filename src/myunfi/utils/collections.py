@@ -1,3 +1,4 @@
+from __future__ import annotations
 from collections import Counter, OrderedDict
 from typing import List, Any, Dict, MutableMapping
 
@@ -77,12 +78,9 @@ def table_to_dicts(
     return [dict(zip(colindex.keys(), row)) for row in table[header_row + 1 :]]
 
 
-def normalize_dict(d: dict, parent_key="", sep="_") -> dict:
+def normalize_dict(d: MutableMapping, parent_key="", sep="_") -> dict:
     """
     take a dict of nested dicts and normalize the data into a flat dict
-    example input:
-    >>> normalize_dict({ "a":{ "1":{"c":"d"}, "2":{"e":"f"}, "3":{"g":{"h":"i"}, "j":"k" } }, }, "l":"m" })
-    { "a_1_c":"d", "a_2_e":"f", "a_3_g_h":"i", "a_3_j":"k", "l":"m" }
     """
     items = []
     for k, v in d.items():

@@ -6,7 +6,7 @@ from .exceptions import *
 import os
 from pathlib import Path
 import re
-
+import hashlib
 
 if TYPE_CHECKING:
     from typing import Any, Dict, List, Optional, Union
@@ -15,37 +15,63 @@ if TYPE_CHECKING:
 
 class HTTPResponse(abc.ABC):
     def __init__(self, response: HTTPResult):
-        self.status_code = response.get_status_code()
-        self.content = response.get_content()
-        self.text = response.get_text()
-        self.headers = response.get_headers()
-        self.cookies = response.get_cookies()
-        self.content_type = response.get_content_type()
-        self.url = response.get_url()
+        self._result = response
 
     def get_status_code(self):
         return self.status_code
 
     def get_content(self):
-        return self.content
+        return self.result.get_content()
 
     def get_headers(self):
-        return self.headers
+        return self.result.get_headers()
 
     def get_json(self):
         return json.loads(self.get_text())
 
     def get_text(self):
-        return self.text
+        return self.result.get_text()
 
     def get_cookies(self):
-        return self.cookies
+        return self.result.get_cookies()
 
     def get_content_type(self):
-        return self.content_type
+        return self.result.get_content_type()
 
     def get_url(self):
-        return self.url
+        return self.result.get_url()
+
+    @property
+    def status_code(self):
+        return self.result.get_status_code()
+
+    @property
+    def content(self):
+        return self.result.get_content()
+
+    @property
+    def text(self):
+        return self.result.get_text()
+
+    @property
+    def headers(self):
+        return self.result.get_headers()
+
+    @property
+    def cookies(self):
+        return self.result.get_cookies()
+
+    @property
+    def content_type(self):
+        return self.result.get_content_type()
+
+    @property
+    def url(self):
+        return self.result.get_url()
+
+    @property
+    def result(self):
+        return self._result
 
 
 class DataResponse(HTTPResponse):
@@ -87,6 +113,9 @@ class DataResponse(HTTPResponse):
             path.parent.mkdir(parents=True, exist_ok=True)
             f.write(self.get_data())
             f.close()
+
+    def md5_hash(self):
+        return hashlib.md5(self.get_data()).hexdigest()
 
 
 class JSONResponse(HTTPResponse):
@@ -179,3 +208,9 @@ class VideoResponse(DataResponse):
         if not self.get_content_type().startswith("video/"):
             raise NonVideoResponseException(f"Expected video, got {self.get_content_type()}")
         self.video = self.get_content()
+
+
+class ErrorResponse(HTTPResponse):
+    def __init__(self, response: HTTPResult):
+        super().__init__(response)
+        self.error = self.get_text()

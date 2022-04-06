@@ -145,16 +145,16 @@ shopping_customers_account_id_order_guides = shopping_customers_account_id + "/o
 shopping_customers_account_id_orders = shopping_customers_account_id + "/orders"
 shopping_customers_account_id_open_orders = shopping_customers_account_id + "/openOrders"
 shopping_customers_account_id_open_orders_order_number = shopping_customers_account_id_orders + "/{orderNumber}"
-shopping_customers_account_id_orders_invoices = shopping_customers_account_id_orders + "/invoices"
-shopping_customers_account_id_orders_invoices_invoice_id = shopping_customers_account_id_orders_invoices + "/{invoiceID}"
+shopping_customers_account_id_invoices = shopping_customers_account_id + "/invoices"
+shopping_customers_account_id_invoices_invoice_id = shopping_customers_account_id_invoices + "/{invoiceID}"
 shopping_customers_account_id_orders_open_orders = shopping_customers_account_id_orders + "/openOrders"
 shopping_customers_account_id_orders_order_id = shopping_customers_account_id_orders + "/{orderID}"
 shopping_customers_account_id_orders_order_id_items = shopping_customers_account_id_open_orders_order_number + "/items"
 shopping_customers_orders_endpoints: dict[str, str] = {
     "order_guides": shopping_customers_account_id_order_guides,
     "orders": shopping_customers_account_id_orders,
-    "invoices": shopping_customers_account_id_orders_invoices,
-    "invoice_id": shopping_customers_account_id_orders_invoices_invoice_id,
+    "invoices": shopping_customers_account_id_invoices,
+    "invoice_id": shopping_customers_account_id_invoices_invoice_id,
     "open_orders": shopping_customers_account_id_orders_open_orders,
     "order_id": shopping_customers_account_id_orders_order_id
 }

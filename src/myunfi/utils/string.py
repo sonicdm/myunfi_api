@@ -1,15 +1,30 @@
 import re
+from pathlib import Path
 from string import hexdigits
 from typing import Any, Iterable, List, Union
-from unfi_api.config import UnfiApiConfig as config
+from myunfi.config import abbreviations_file
 import csv
+
 top_package = __import__(__name__.split('.')[0])
+abbr_repl = None
+
+uppercase_acronyms = ["UPC", "SRP", "ID"]
+
+
+def acronyms_to_uppercase(s: str) -> str:
+    """
+    Convert acronyms to uppercase.
+    """
+    replace_str = "|".join(uppercase_acronyms)
+    s = re.sub(r"(" + replace_str + ")", r"\1".upper(), s, re.IGNORECASE).strip()
+    return s
+
 
 class AbbrRepl:
     def __init__(self, abbrfile=None):
         self.abbrs = {}
         if not abbrfile:
-            self.file_path = config.abbreviations_path
+            self.file_path = Path(abbreviations_file)
         else:
             self.file_path = abbrfile
         self._load_abbrs()
@@ -21,7 +36,7 @@ class AbbrRepl:
 
     def is_abbr(self, w: str) -> bool:
         """Check if a string is an abbreviation"""
-        return w.upper() in self.abbrs
+        return w.lower() in self.abbrs
 
     def abbr_repl(self, s):
         """
@@ -33,7 +48,7 @@ class AbbrRepl:
             return s
 
         matchwords = []
-        for word in filter(None, re.findall(r'\b\d*\w*\b', s)):
+        for word in filter(None, re.split(r'[\W]', s)):
             if self.is_abbr(word):
                 matchwords.append((word, self.get_repl(word)))
         if len(matchwords) > 0:
@@ -48,7 +63,21 @@ class AbbrRepl:
         :param w: single word to get the abbreviation for
         :type w: string
         """
-        return self.abbrs.get(w.upper(), w).title()
+        return self.abbrs.get(w.lower(), w).title()
+
+
+def replace_abbrs(s: str) -> str:
+    """
+    Replace abbreviations in a string
+    :param s: string
+    :type s: str
+    :return: string
+    """
+    global abbr_repl
+    if not abbr_repl:
+        abbr_repl = AbbrRepl()
+    return abbr_repl.abbr_repl(s)
+
 
 def clean_size_field(text: str) -> str:
     if not isinstance(text, str):
@@ -207,6 +236,7 @@ def camel_to_snake_case(s: str) -> str:
     regex = r"([a-z]+)([A-Z]+)"
     return re.sub(regex, r"\1_\2", s).lower()
 
+
 def pascal_case_to_snake_case(s: str) -> str:
     """
     Convert a string to lower case snake case.
@@ -218,6 +248,7 @@ def pascal_case_to_snake_case(s: str) -> str:
         return "_".join(s).lower()
     else:
         return s
+
 
 def string_to_snake(s: str) -> str:
     """
@@ -257,7 +288,7 @@ def divide_list_into_chunks_by_character_limit(query: List[str], max_chars: int)
             chunk = [term]
         else:
             chunk.append(term)
-            
+
     if chunk:
-        chunks.append(chunk)    
+        chunks.append(chunk)
     return chunks

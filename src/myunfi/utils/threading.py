@@ -16,18 +16,18 @@ job_status: Dict[str, str] = {}  # job_id: status
 
 
 def threader(
-    func,
-    args,
-    fn_args=(),
-    fn_kwargs={},
-    callback=None,
-    finished_callback=None,
-    max_workers=10,
-    executor_type="thread",
-    executor_options={},
-    executor = None,
-    job: Job = None,
-):
+        func,
+        args,
+        fn_args=(),
+        fn_kwargs=None,
+        callback=None,
+        finished_callback=None,
+        max_workers=10,
+        executor_type="thread",
+        executor_options=None,
+        executor=None,
+        job: Job = None,
+) -> list[Any]:
     """
     This function takes in a function and data, then runs the
     function with the arguments given using the specified thread executor type.
@@ -48,9 +48,11 @@ def threader(
     executor:          The executor to be used. will ignore type, executor_options and max_workers.
     """
     if not executor_options:
-        executor_options = dict(max_workers=max_workers)    
+        executor_options = dict(max_workers=max_workers)
+    if not fn_kwargs:
+        fn_kwargs = dict()
     results = []
-    if not executor:   
+    if not executor:
         if executor_type == "thread":
             executor = ThreadPoolExecutor(**executor_options)
         elif executor_type == "process":
@@ -70,14 +72,14 @@ def threader(
 
 
 def run_executor(
-    executor: Union[ThreadPoolExecutor, ProcessPoolExecutor],
-    fn,
-    fn_data: Iterable[Any],
-    fn_args: Iterable[Any] = None,
-    fn_kwargs: Dict[str, Any] = None,
-    callback: Callable[[Any], Any] = None,
-    job: Job = None,
-) -> Any:
+        executor: Union[ThreadPoolExecutor, ProcessPoolExecutor],
+        fn,
+        fn_data: Iterable[Any],
+        fn_args: Iterable[Any] = None,
+        fn_kwargs: Dict[str, Any] = None,
+        callback: Callable[[Any], Any] = None,
+        job: Job = None,
+) -> list[Any]:
     """
     Run a job with an executor.
     """
@@ -101,8 +103,9 @@ def run_executor(
                     if job:
                         job.job_output.append(result)
                         if job.cancelled():
-                            raise CancelledJobException(message=f"Job: '{job.job_id}' cancelled", job_id=job.job_id, job=job)
-                        
+                            raise CancelledJobException(message=f"Job: '{job.job_id}' cancelled", job_id=job.job_id,
+                                                        job=job)
+
                     # if job:
                     #     if job.cancelled():
                     #         message = f"Job {job.job_id} was cancelled."
@@ -111,7 +114,7 @@ def run_executor(
                     #         message = f"Job {job.job_id} encountered an error."
                     #         print(job.exceptions)
                     #         raise JobErrorException(message, job=job, job_id=job.job_id)
-                        
+
                 except CancelledJobException as e:
                     executor.shutdown(wait=False)
                     executor._threads.clear()
@@ -131,7 +134,6 @@ def run_executor(
             concurrent.futures.thread._threads_queues.clear()
             raise
     return results
-
 
 
 def shutdown_executor(executor: Union[ThreadPoolExecutor, ProcessPoolExecutor]):
@@ -156,9 +158,9 @@ def get_executor(executor_type="thread", executor_options=dict()):
             f"Invalid executor type: {executor_type} must be either 'thread' or 'process'."
         )
 
+
 def kill_all_threads():
     """
     This function kills all threads in the current thread pool.
     """
     concurrent.futures.thread._threads_queues.clear()
-

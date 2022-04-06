@@ -14,7 +14,7 @@ from myunfi.http_wrappers.http_requests import RequestsResult, RequestsSession
 fac = factories.HTTPWrapperFactory()
 
 
-def do_login(session: Type[HTTPSession], username: str, password: str) -> bool:
+def do_login(session: HTTPSession, username: str, password: str) -> bool:
     """
     Login to the MyUNFI portal
     Returns true or false depending on if the login was successful
@@ -26,7 +26,7 @@ def do_login(session: Type[HTTPSession], username: str, password: str) -> bool:
     # Get Home Page for session data perhaps
     home_response = session.request("GET", home_page)
     # Get Login Page through the redirect URL. This is the only way to get the session tokens for login.
-    login_page_response = session.request("GET", login_redirect_url)
+    login_page_response = session.request("GET", url=login_redirect_url, allow_sleep=False)
 
     # make sure the redirect brought us to the right page, this is in config to make it easy to change if required.
     response_base_url = login_page_response.url.split("?")[0]
@@ -49,7 +49,7 @@ def do_login(session: Type[HTTPSession], username: str, password: str) -> bool:
     headers = session.headers.copy()
     headers["Referer"] = login_page_response.url
     headers['origin'] = "https://auth.myunfi.com"
-    login_response = session.request("post", login_page_response.url, data=payload, headers=headers)
+    login_response = session.request("post", login_page_response.url, data=payload, headers=headers, allow_sleep=False)
     # check if it is a bad login
     if "Bad Login" in login_response.text or login_response.url == login_page_response.url:
         raise MyUnfiInvalidCredentials("Invalid Username or Password")
@@ -58,10 +58,10 @@ def do_login(session: Type[HTTPSession], username: str, password: str) -> bool:
     return logged_in
 
 
-def is_authorized(session: Type[HTTPSession]) -> bool:
+def is_authorized(session: HTTPSession) -> bool:
     """
     Checks if the session is authorized
     Returns true or false depending on if the session is authorized
     """
-    authorized = session.post("https://www.myunfi.com/api/auth/validate")
+    authorized = session.post("https://www.myunfi.com/api/auth/validate", allow_sleep=False)
     return authorized.status_code == 200

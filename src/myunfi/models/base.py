@@ -3,47 +3,62 @@ from __future__ import annotations
 from datetime import datetime
 from typing import List, Optional, Type
 
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, ValidationError, root_validator
 
 from myunfi.http_wrappers.http_adapters import HTTPSession
 from myunfi.http_wrappers.responses import HTTPResponse
+from myunfi.logger import get_logger
+
+base_logger = get_logger(__name__)
 
 
 class Page(BaseModel):
-    size: int
-    number: int
-    number_of_elements: int = Field(..., alias='numberOfElements')
-    total_elements: int = Field(..., alias='totalElements')
-    total_pages: int = Field(..., alias='totalPages')
-    is_sorted: bool = Field(..., alias='isSorted')
+    page_size: Optional[int] = Field(12, alias="size")
+    page_number: Optional[int] = Field(0, alias="number")
+    number_of_elements: Optional[int] = Field(None, alias='numberOfElements')
+    total_elements: Optional[int] = Field(None, alias='totalElements')
+    total_pages: Optional[int] = Field(None, alias='totalPages')
+    is_sorted: Optional[bool] = Field(None, alias='isSorted')
+    sort_direction: Optional[str] = "DESC"
+    sort_by: Optional[str] = None
 
 
-class PaginatedModel(BaseModel):
+class PaginatedModel(Page):
     """
     Base class for all models that are a single page of a result.
     """
-    page: Page
+
+    @root_validator(pre=True)
+    def validate_page(cls, values: dict) -> dict:
+        page = values.get('page')
+        if page is None:
+            return values
+        else:
+            values.update(page)
+            del values['page']
+
+        return values
 
 
 class Sessionable:
     """
     Base class for all models that have a session.
     """
-    __SESSION__: HTTPSession = None
+    __SESSION: HTTPSession = None
 
     @classmethod
     def get_session(cls) -> HTTPSession:
         """
         Returns the session for all models.
         """
-        return cls.__SESSION__
+        return cls.__SESSION
 
     @classmethod
     def set_session(cls, session: HTTPSession):
         """
         Sets the session for all models.
         """
-        cls.__SESSION__ = session
+        cls.__SESSION = session
 
 
 class QueryParams(BaseModel):
@@ -69,25 +84,38 @@ class FetchableModel(BaseModel, Sessionable):
     class Config:
         validate_assignment = True
 
-    def fetch(self, session: HTTPSession = None) -> FetchableModel:
+    def fetch(self, session: HTTPSession = None, **kwargs) -> FetchableModel:
         """
         Fetch the model.
         Subclasses should implement the _fetch method to do the actual fetching.
         """
-        if not all(getattr(self, field) is not None for field in self._queryable_fields):
+        begin = datetime.now()
+        logger = base_logger.getChild(f"{self.__class__.__name__}.fetch")
+        logger.debug(f"Fetching model for {self.__class__.__name__}")
+        logger.debug(f"required_fields: {self.__get_field_data(self._required_fields)}")
+        logger.debug(f"queryable_fields: {self.__get_field_data(self._queryable_fields)}")
+        logger.debug(f"params: {self._params}")
+        if not all(getattr(self, field) is not None for field in self._required_fields):
             raise ValueError(f"Cannot fetch product without {self._required_fields} set.")
         # session is required for fetching
-        if session is None and self.__SESSION__ is None:
+        if session is None and self.get_session() is None:
             raise ValueError("Cannot fetch product without a session.")
 
-        session = session or self.__SESSION__
-        result = self._fetch(session)
+        session = session or self.get_session()
+        result = self._fetch(session, **kwargs)
         if result is None:
             return self
         self.executed = True
 
         # update the model with the result
-        self.update_model(result)
+        try:
+            self.update_model(result)
+        except Exception as e:
+            logger.exception(e)
+            self.error = str(e)
+            logger.error(f"Failed to update model for {self.__class__.__name__} {result=}")
+            raise
+        logger.debug(f"Fetched model for {self.__class__.__name__}. Took {datetime.now() - begin}")
         self.last_fetched = datetime.now()
         return self
 
@@ -106,9 +134,7 @@ class FetchableModel(BaseModel, Sessionable):
                 # this will throw a validation error if the field is not in the model
                 setattr(self, field, value)
 
-
-
-    def _fetch(self, session: HTTPSession) -> dict:
+    def _fetch(self, session: HTTPSession = None, **kwargs) -> dict:
         """
         Fetch the model.
         """
@@ -132,16 +158,38 @@ class FetchableModel(BaseModel, Sessionable):
         """
         return self.last_fetched is not None
 
+    @property
+    def queryable_fields(self) -> List[str]:
+        """
+        Returns the fields that can be queried.
+        """
+        return self._queryable_fields
+
+    @property
+    def required_fields(self) -> List[str]:
+        """
+        Returns the fields that must be set before fetching.
+        """
+        return self._required_fields
+
+    @property
+    def params(self) -> Optional[QueryParams]:
+        """
+        Returns the optional query parameters.
+        """
+        return self._params
+
+    def __get_field_data(self, fields) -> dict:
+        """
+        :return:
+        """
+        return {field: getattr(self, field) for field in fields}
 
 
-
-class PaginatedFetchAbleModel(FetchableModel, PaginatedModel):
+class PaginatedFetchableModel(FetchableModel, PaginatedModel):
     """
     Base class for all models that are a single page of a result. allowing for seeking through results.
     """
-
-    def _fetch(self, session: HTTPSession) -> HTTPResponse:
-        ...
 
     def fetch_next_page(self, session: HTTPSession) -> Optional[BaseModel]:
         """

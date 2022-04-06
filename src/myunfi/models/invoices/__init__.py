@@ -1,5 +1,5 @@
 from __future__ import annotations
 from .invoice import Invoice
-from .invoices import Invoices
+from .invoice_list import InvoiceList
 
-__all__ = [Invoice, Invoices]
+__all__ = [Invoice, InvoiceList]

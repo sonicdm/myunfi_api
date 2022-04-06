@@ -94,8 +94,8 @@ def fetch_recommended(session, account_id: str, page_number: int = 0,
 
 
 def fetch_items(session, account_id: str, dc_num: int, brand_id: str = None, department_ids: list[int] = None,
-                category_id=None, sub_category_id=None, search_term="*", page_number: int = 0,
-                page_size: int = 96) -> JSONResponse:
+                category_id=None, sub_category_id=None, search_term="*", page_number: int = 0, sort_by: str = None,
+                sort_order: str = None, page_size: int = 96) -> JSONResponse:
     """
     Fetch the items for a given brand.
     https://www.myunfi.com/shopping/api/customers/001014/items/search?brands=40579&dcNumber=6&page=0&searchTerm=%2A&size=12&hostSystem=WBS
@@ -128,6 +128,7 @@ def fetch_items(session, account_id: str, dc_num: int, brand_id: str = None, dep
     payload = {}
     if sub_category_id:
         payload["subCategoryId"] = sub_category_id
+
     if department_ids:
         params["departments"] = ",".join([str(department_id) for department_id in department_ids])
     if brand_id:
@@ -136,7 +137,8 @@ def fetch_items(session, account_id: str, dc_num: int, brand_id: str = None, dep
         result = session.post(endpoint, json=payload, params=params)
     else:
         result = session.get(endpoint, params=params)
-    return result
+
+    return JSONResponse(result)
 
 
 def fetch_sub_category_members(session, account_id: str, parent_category_id, sub_category_id: str, page_number: int = 0,

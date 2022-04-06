@@ -1,10 +1,12 @@
 """
 MyUnfi Client Base Class
 """
-
+import configparser
 from urllib.parse import unquote
 
 import requests
+
+from .. import config
 from ..http_wrappers import factories
 from bs4 import BeautifulSoup
 
@@ -14,8 +16,11 @@ from .base import MyUNFIClientProtocol
 from .client_exceptions import MyUnfiInvalidLoginRedirect, MyUnfiInvalidCredentials, MyUnfiLoginFormNotFound
 from .headers import login_page_headers
 from .login import do_login, is_authorized
+
 wrapper_factory = factories.HTTPWrapperFactory()
 LOGGER = get_logger(__name__)
+
+from ..models.base import FetchableModel
 
 
 class MyUNFIClient(MyUNFIClientProtocol):
@@ -34,7 +39,10 @@ class MyUNFIClient(MyUNFIClientProtocol):
         """
         super().__init__(username, password, auto_login)
         self.session = session or wrapper_factory.get_session().create_session()
+        FetchableModel.set_session(self.session)
         self.logger = LOGGER.getChild(self.__class__.__name__)
+        self._account_id = config.default_account_number
+        self._dc_number = config.default_dc
         if self.auto_login and username and password:
             self.login(username, password)
 
@@ -43,15 +51,7 @@ class MyUNFIClient(MyUNFIClientProtocol):
             if do_login(self.session, username, password):
                 self.logger.info("Successfully logged in")
                 self.logged_in = True
-        except MyUnfiInvalidLoginRedirect as e:
-            self.logger.error(e)
-            self.logged_in = False
-            raise
-        except MyUnfiInvalidCredentials as e:
-            self.logger.error(e)
-            self.logged_in = False
-            raise
-        except MyUnfiLoginFormNotFound as e:
+        except (MyUnfiInvalidLoginRedirect, MyUnfiInvalidCredentials, MyUnfiLoginFormNotFound) as e:
             self.logger.error(e)
             self.logged_in = False
             raise
@@ -88,4 +88,6 @@ class MyUNFIClient(MyUNFIClientProtocol):
         response = self.session.request(method, url, **kwargs)
         return response
 
-
+    @property
+    def account_id(self):
+        return self._account_id

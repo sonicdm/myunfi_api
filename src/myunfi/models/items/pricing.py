@@ -6,16 +6,14 @@ from pydantic import BaseModel, Field
 
 
 class NetPriceAdjustments(BaseModel):
-    volume_discount_dollars: Any = Field(..., alias='volumeDiscountDollars')
+    volume_discount_dollars: Optional[Any] = Field(alias='volumeDiscountDollars')
 
 
 class PricingItem(BaseModel):
     item_number: str = Field(..., alias='itemNumber')
     net_price: float = Field(..., alias='netPrice')
     net_unit_price: float = Field(..., alias='netUnitPrice')
-    net_price_adjustments: Optional[NetPriceAdjustments] = Field(
-        None, alias='netPriceAdjustments'
-    )
+    net_price_adjustments: Optional[NetPriceAdjustments] = Field(alias='netPriceAdjustments')
 
 
 class Promotion1(BaseModel):

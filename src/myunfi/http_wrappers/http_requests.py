@@ -1,12 +1,16 @@
 from __future__ import annotations
-from typing import Type
 
+from typing import Type
+import random
+import time
 import requests
 from requests import Session
 from requests.cookies import RequestsCookieJar
 from requests.structures import CaseInsensitiveDict
 
-from myunfi.http_wrappers.http_adapters import HTTPRequest, HTTPResult, HTTPSession
+from myunfi import config
+from myunfi.http_wrappers.http_adapters import HTTPRequest, HTTPResult, HTTPSession, request_sleep
+from myunfi.logger import get_logger
 
 
 class HTTPRequestsRequest(HTTPRequest):
@@ -34,10 +38,11 @@ class RequestsSession(HTTPSession):
 
     def __init__(self, session: Session):
         super().__init__(session)
+        self.logger = get_logger(__name__)
 
     def create_request(self, verb: str, url: str, headers: dict = None, params: dict = None,
                        json: dict = None, data: bytes = None,
-                       cookies: dict = None, append_to_session: bool = False) -> HTTPRequestsRequest:
+                       cookies: dict = None, append_to_session: bool = False, **kwargs) -> HTTPRequestsRequest:
         return HTTPRequestsRequest(verb=verb, url=url, headers=headers, params=params, json=json, data=data,
                                    cookies=cookies, session=self, append_to_session=append_to_session)
 
@@ -71,8 +76,20 @@ class RequestsSession(HTTPSession):
     def patch(self, url, **kwargs) -> RequestsResult:
         return self.request('PATCH', url, **kwargs)
 
-    def request(self, method, url, **kwargs) -> RequestsResult:
+    def request(self, method, url, allow_sleep=True, **kwargs) -> RequestsResult:
+        request_logger = self.logger.getChild("request")
+        request_logger.debug(f'{method} {url} {kwargs=}')
+        if allow_sleep:
+            request_sleep()
         res = self.session.request(method, url, **kwargs)
+        try:
+            res.raise_for_status()
+            pass
+        except requests.exceptions.HTTPError as e:
+            request_logger.exception(e)
+            request_logger.error(f'{method} {url} response: {res.text=} {res.headers=}')
+            raise
+
         res.raise_for_status()
         return RequestsResult(res)
 

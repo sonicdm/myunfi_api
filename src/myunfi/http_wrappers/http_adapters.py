@@ -2,11 +2,26 @@ from __future__ import annotations
 import abc
 import mimetypes
 from typing import Type
+from myunfi.config import random_delay
+from myunfi.logger import get_logger
+import time, random
 
-from myunfi.http_wrappers.responses import BytesResponse, CSVResponse, ExcelResponse, HTMLResponse, ImageResponse, \
+from myunfi.http_wrappers.responses import BytesResponse, CSVResponse, ErrorResponse, ExcelResponse, HTMLResponse, \
+    ImageResponse, \
     JSONResponse, PDFResponse, TextResponse, HTTPResponse, VideoResponse, XMLResponse
 
 ALLOWED_VERBS = ["GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS", "PATCH"]
+
+logger = get_logger(__name__)
+
+
+def request_sleep(start: float = 1, stop: float = 3):
+    sleep_logger = logger.getChild("request_sleep")
+    if random_delay:
+        duration = random.uniform(start, stop)
+        sleep_logger.debug("Sleeping for %s seconds", duration)
+        time.sleep(duration)
+        sleep_logger.debug("Done sleeping")
 
 
 class HTTPAdapter(abc.ABC):
@@ -50,7 +65,7 @@ class HTTPAdapter(abc.ABC):
         pass
 
     @abc.abstractmethod
-    def request(self, method, url, **kwargs) -> Type[HTTPResult]:
+    def request(self, method, url, sleep=True, **kwargs) -> Type[HTTPResult]:
         pass
 
     @abc.abstractmethod
@@ -95,7 +110,7 @@ class HTTPSession(HTTPAdapter):
 
     @abc.abstractmethod
     def create_request(self, verb: str, url: str, headers: dict = None, params: dict = None, json: dict = None,
-                       data: bytes = None, cookies: dict = None, append_to_session: bool = False) -> HTTPRequest:
+                       data: bytes = None, cookies: dict = None, append_to_session: bool = False, **kwargs) -> HTTPRequest:
         pass
 
     @abc.abstractmethod
@@ -192,6 +207,9 @@ class HTTPRequest(abc.ABC):
 
     def get_pdf(self) -> PDFResponse:
         return PDFResponse(self.__response)
+
+    def get_error(self) -> ErrorResponse:
+        return ErrorResponse(self.__response)
 
     def __repr__(self):
         return f"<HTTPRequest: {self.verb} {self.url} executed={self.executed} status_code={self.status_code}>"

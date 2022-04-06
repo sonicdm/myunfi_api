@@ -1,9 +1,14 @@
 from __future__ import annotations
+
+import os
 import unittest
 from datetime import date
 from pathlib import Path
-from myunfi.models.invoices import Invoice, Invoices
+
+from myunfi import MyUNFIClient
 from myunfi.models.invoices.invoice import InvoiceLineItem
+from myunfi.models.invoices.invoice import Invoice
+from myunfi.models.invoices.invoice_list import InvoiceList
 
 this_file_path = Path(__file__)
 assets_path = this_file_path.parents[2] / "Assets"
@@ -34,8 +39,23 @@ class TestCredit(unittest.TestCase):
 
 class TestCredits(unittest.TestCase):
     def test_credits_from_json(self):
-        credits_list = Invoices.parse_file(credits_json)
-        page = credits_list.page
+        credits_list = InvoiceList.parse_file(credits_json)
+        pass
+
+
+class TestInvoice(unittest.TestCase):
+
+    def test_invoice_fetch(self):
+        client = MyUNFIClient(
+            username=os.getenv("MYUNFI_USERNAME"),
+            password=os.getenv("MYUNFI_PASSWORD"),
+        )
+        invoice = Invoice(invoiceNumber="68677139-003", account_id="001014")
+        invoice.transaction_type = "INVOICE"
+        invoice.fetch(client.session)
+        pass
+
+
 
 
 
@@ -43,9 +63,8 @@ class TestCredits(unittest.TestCase):
 
 class TestLineItem(unittest.TestCase):
     def test_line_item(self):
-
         test_line_item: InvoiceLineItem = InvoiceLineItem.parse_file(invoice_line_item_json)
-        self.assertEqual(test_line_item.upc_number, "93966510157")
+        self.assertEqual(test_line_item.upc, "93966510157")
         self.assertEqual(test_line_item.product_description, "OG2 O.V. WHOLE MILK")
         self.assertEqual(test_line_item.department_name, "SUPPLEMENTS")
         self.assertEqual(test_line_item.order_quantity, 0)
