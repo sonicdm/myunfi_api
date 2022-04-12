@@ -1,7 +1,6 @@
 import logging
 from pathlib import Path
 from typing import Union
-from unfi_api.config import UnfiApiConfig as config
 
 
 def get_logger(name, level=logging.INFO, path=None):

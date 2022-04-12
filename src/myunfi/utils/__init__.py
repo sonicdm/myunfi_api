@@ -3,7 +3,7 @@ from __future__ import print_function
 import re
 from typing import Dict, List, Union
 
-from unfi_api.utils.string import convert_strings_to_number, isnumber
+from myunfi.utils.string import convert_strings_to_number, isnumber
 
 
 def round_retails(price):

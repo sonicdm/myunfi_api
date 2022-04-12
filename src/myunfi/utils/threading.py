@@ -4,10 +4,10 @@ import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed, ProcessPoolExecutor
 from typing import TYPE_CHECKING, Any, Callable, Dict, Iterable, Union
 from dataclasses import dataclass, field
-from unfi_api.exceptions import CancelledJobException, JobErrorException
+from myunfi.exceptions import CancelledJobException, JobErrorException
 
 if TYPE_CHECKING:
-    from unfi_api.utils.jobs import Job, Jobs
+    from myunfi.utils.jobs import Job, Jobs
 
 logger = logging.getLogger(__name__)
 cancel = False
@@ -143,7 +143,7 @@ def shutdown_executor(executor: Union[ThreadPoolExecutor, ProcessPoolExecutor]):
     executor.shutdown(wait=False)
 
 
-def get_executor(executor_type="thread", executor_options=dict()):
+def get_executor(executor_type="thread", executor_options: dict = None):
     """
     This function returns an executor.
     """

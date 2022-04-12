@@ -21,7 +21,7 @@ def auto_size_worksheet_columns(ws: Worksheet, padding: int=0) -> None:
 
 # permission error retry decorator
 from openpyxl.utils import get_column_letter
-from unfi_api.utils.string import  isnumber
+from myunfi.utils.string import  isnumber
 
 # openpyxl methods
 def size_cols(ws):

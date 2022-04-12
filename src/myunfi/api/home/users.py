@@ -1,5 +1,5 @@
 from ..endpoints import home_user_endpoints
-
+from ...http_wrappers.responses import JSONResponse
 
 """
 home_user_endpoints = {
@@ -12,6 +12,7 @@ home_user_endpoints = {
     "users_profile": users_profile,
 }
 """
+
 
 def fetch_user_profile_checked(session, user_id) -> bool:
     """

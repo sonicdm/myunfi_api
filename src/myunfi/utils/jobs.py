@@ -11,12 +11,12 @@ from enum import Enum
 from threading import Thread
 from typing import TYPE_CHECKING, Any, Callable, Dict, Iterable, List, Tuple, Union
 
-from unfi_api.exceptions import (
+from myunfi.exceptions import (
     CancelledJobException,
     JobErrorException,
     JobRunningException,
 )
-from unfi_api.utils.threading import threader, get_executor
+from myunfi.utils.threading import threader, get_executor
 
 JOB_STATUSES = ["pending", "running", "finished", "error", "cancelled"]
 ENDED_STATUSES = ["finished", "error", "cancelled"]
@@ -156,6 +156,7 @@ class Job:
     executor: Union[ThreadPoolExecutor, ProcessPoolExecutor] = field(default=None)
     suppress_errors: bool = field(default=False)
     thread_type: str = field(default="thread")
+    error: bool = field(default=False, init=False)
 
     # dict containing the index of the failed arguments, the exception and the values
     job_exceptions: Dict[int, List[Tuple[JobErrorException, Any]]] = field(

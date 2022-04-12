@@ -2,7 +2,6 @@
 import json
 
 from requests import Response, status_codes
-from unfi_api.api.response import APIResponse
 
 
 def response_to_json(response: Response) -> dict:
@@ -43,11 +42,11 @@ def response_to_json(response: Response) -> dict:
     return result
 
 
-def response_to_api_response(response, api_response: APIResponse=APIResponse) -> APIResponse:
-    """
-    :type response: `requests.models.Response`
-    :param response:
-    :return:
-    """
-    result = response_to_json(response)
-    return api_response.parse_obj(result)
+# def response_to_api_response(response, api_response: APIResponse=APIResponse) -> APIResponse:
+#     """
+#     :type response: `requests.models.Response`
+#     :param response:
+#     :return:
+#     """
+#     result = response_to_json(response)
+#     return api_response.parse_obj(result)

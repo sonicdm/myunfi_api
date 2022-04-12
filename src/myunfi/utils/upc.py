@@ -2,7 +2,7 @@
 import re
 import math
 
-from unfi_api.utils.string import isnumber
+from myunfi.utils.string import isnumber
 
 
 def prep_upc_a(upc):
